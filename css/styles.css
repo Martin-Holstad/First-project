@@ -31,9 +31,11 @@ nav a:hover {
     text-decoration: underline;
 }
 
-img {
-    width: 100%;
+.background {
+    width: 50%;
 }
+
+
 
 
 
