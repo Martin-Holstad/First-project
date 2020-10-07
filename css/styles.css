@@ -25,7 +25,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    padding: 10px;
+    padding: 0px;
 }
 
 nav a:hover {
