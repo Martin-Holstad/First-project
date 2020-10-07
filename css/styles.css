@@ -1,22 +1,21 @@
-main {font-family: Arial, Helvetica, sans-serif;
+main {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     font-weight: bold;
 }
 
-h1 {text-align: center;
+h1 {
+    text-align: center;
 }
 
-nav ul {padding: 0px;
+nav ul {
+    padding: 0px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;  
+    font-weight: bold;
+    text-decoration: none;  
 }
 
-nav a {text-decoration: none;
-}
 
-img {
-    width: 100%;
-}
 
 
