@@ -1,17 +1,31 @@
-nav {
-    background-image: url('../images/images/top\ line.jpg');
+
+.logo { 
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-body {
+.background {
     background-image: url('../images/images/background.jpg');
-    margin: 0px;  
+    background-repeat: no-repeat;
 }
 
 .home-h1 {
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     font-size: 22px;
     text-align: center;
     color: #ffff;
+}
+
+.home-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: #ffff;
+}
+
+.product-link {
+    text-align: center;
 }
 
 .logg-inn-h1 {
@@ -25,29 +39,27 @@ body {
     font-size: 18px;
 }
 
-.home-text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    text-align: center;
-    color: #ffff;
+.main-navigation {
+    background-image: url('../images/images/top\ line.jpg');
 }
 
 nav ul {
     font-family: arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: bold;
-    text-align: center;
+    margin-top: -8px;
+    margin-left: 150px;
 }
 
 nav li {
     display: inline-block;
     padding: 15px;
-    
 }
 
 nav a {
     text-decoration: none;
-    padding: 60px;
+    margin-right: px;
+    padding-left: 100px;
     color: #ffff;
 }
 
