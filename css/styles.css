@@ -6,6 +6,7 @@ body {
 }
 .logo {
     text-align: center;
+    margin-top: 0px;
     margin-bottom: 50px;
 }
 
@@ -36,8 +37,13 @@ body {
     margin: 50px auto 0px auto;
 }
 
-.product-item {
+.product-item, .product-cta {
     margin: 5px;
+}
+
+.cta-container-home {
+    text-align: center; 
+    margin-top: 40px;
 }
 
 .logg-inn-h1 {
@@ -59,14 +65,13 @@ ul {
     font-family: arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: bold;
-    width: fit-content;
+    width: auto;
     margin-top: 0px;
-    margin-left: 260px;
 }
 
 li {
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 165px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
