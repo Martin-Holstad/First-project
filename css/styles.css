@@ -1,5 +1,10 @@
 
-.logo { 
+body {
+    margin: 0px;
+
+
+}
+.logo {
     text-align: center;
     margin-bottom: 50px;
 }
@@ -14,18 +19,25 @@
     font-weight: bold;
     font-size: 22px;
     text-align: center;
-    color: #ffff;
+    color: #ffff;    
 }
 
 .home-text {
+    margin: auto auto;
+    width: 540px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     text-align: center;
     color: #ffff;
 }
 
-.product-link {
+.product-container {
     text-align: center;
+    margin: 50px auto 0px auto;
+}
+
+.product-item {
+    margin: 5px;
 }
 
 .logg-inn-h1 {
@@ -39,27 +51,28 @@
     font-size: 18px;
 }
 
-.main-navigation {
-    background-image: url('../images/images/top\ line.jpg');
+nav {
+    background-color: #106F77;
 }
 
-nav ul {
+ul {
     font-family: arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: bold;
-    margin-top: -8px;
-    margin-left: 150px;
+    width: fit-content;
+    margin-top: 0px;
+    margin-left: 260px;
 }
 
-nav li {
+li {
     display: inline-block;
-    padding: 15px;
+    margin-left: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-nav a {
+a {
     text-decoration: none;
-    margin-right: px;
-    padding-left: 100px;
     color: #ffff;
 }
 
