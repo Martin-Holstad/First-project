@@ -4,9 +4,8 @@ body {
 }
 
 .logo {
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 50px;
+    margin: 0px auto 50px auto;
+    width: fit-content;
 }
 
 .background {
@@ -69,14 +68,33 @@ body {
 }
 
 .price {
-    text-align: start;
+    position: relative;
+    text-align: end;
+    margin-top: -17px;
 }
 
+.product-container {
+    width: fit-content;
+    margin-left: 405px;
+    margin-right: 200px;
+}
+
+.product-image-small {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px
+}
 
 .back-to-top-cta {
     text-align: center;
 }
 
+.cta-product-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 20px;
+}
 
 .logg-inn-h1 {
     font-family: Arial, Helvetica, sans-serif;
