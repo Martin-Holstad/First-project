@@ -12,6 +12,7 @@ body {
 .background {
     background-image: url('../images/images/background.jpg');
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .home-h1 {
@@ -31,10 +32,10 @@ body {
     color: #ffff;
 }
 
-.product-container {
+.home-images {
     text-align: center;
-    margin: 50px auto 0px auto;
 }
+
 
 .product-item, .product-cta {
     margin: 5px;
@@ -45,16 +46,37 @@ body {
     margin-top: 40px;
 }
 
-.container-men {
+.container-men, .container-women {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     color: #ffff;
 }
 
-.product-container-men {
+.product-container-men, .product-container-women {
     display: inline-block;
     margin: 10px 10px;
 }
+
+.product-text-1-men, .product-text-1-women {
+    text-align: start;
+    margin: 0px;
+}
+
+.product-text-2-men, .product-text-2-women {
+    text-align: start;
+    margin: 0px;
+}
+
+.price {
+    text-align: start;
+}
+
+
+.back-to-top-cta {
+    text-align: center;
+}
+
 
 .logg-inn-h1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -75,7 +97,6 @@ ul {
     font-family: arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: bold;
-    width: auto;
     margin-top: 0px;
 }
 
@@ -105,11 +126,6 @@ nav a:hover {
     font-size: 11px;
     padding: 0px;
     color: #8D8D8D;
-}
-
-
-input {
-    display: block;
 }
 
 
