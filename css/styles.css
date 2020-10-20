@@ -1,6 +1,7 @@
 
 body {
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo {
@@ -73,10 +74,14 @@ body {
     margin-top: -17px;
 }
 
+.flex-main {
+    display: flex;
+}
+
 .product-container {
     width: fit-content;
-    margin-left: 405px;
-    margin-right: 200px;
+    margin-left: 21%;
+    margin-right: 12%;
 }
 
 .product-image-small {
@@ -94,6 +99,33 @@ body {
     justify-content: space-between;
     flex-direction: row;
     margin-top: 20px;
+}
+
+
+.product-container-two {
+    width: 328.08px;
+}
+
+.paragraph-bold {
+    font-weight: bold;
+}
+
+.star-container {
+    margin-bottom: -15px;
+}
+
+.product-name-container {
+    margin-top: -20px;
+    margin-bottom: 65px;
+}
+
+.colour-of-product {
+    
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
 }
 
 .logg-inn-h1 {
