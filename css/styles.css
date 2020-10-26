@@ -23,6 +23,18 @@ body {
     color: #ffff;    
 }
 
+.contact-us-h1, .about-us-h1 {
+    text-align: center;
+}
+
+.about-us-text-container {
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 50px;
+    opacity: 100px;
+}
+
+
 .home-text {
     margin: auto auto;
     width: 540px;
@@ -119,10 +131,16 @@ body {
     margin-bottom: 65px;
 }
 
-.colour-of-product {
-    
+.select-size-container {
+    background-color: #106F77;
+    color: #ffff;
+
 }
 
+#size {
+    width: 100px;
+    
+}
 .flex-space-between {
     display: flex;
     justify-content: space-between;
