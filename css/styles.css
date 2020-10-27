@@ -1,3 +1,6 @@
+header {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 body {
     margin: 0px;
@@ -5,7 +8,7 @@ body {
 }
 
 .logo {
-    margin: 0px auto 50px auto;
+    margin: 15px auto 50px auto;
     width: fit-content;
 }
 
@@ -16,7 +19,6 @@ body {
 }
 
 .home-h1 {
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 22px;
     text-align: center;
@@ -31,14 +33,12 @@ body {
     width: 35%;
     margin: 0 auto;
     margin-top: 50px;
-    opacity: 100px;
 }
 
 
 .home-text {
     margin: auto auto;
     width: 540px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     text-align: center;
     color: #ffff;
@@ -60,7 +60,6 @@ body {
 
 .container-men, .container-women {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #ffff;
 }
@@ -118,7 +117,7 @@ body {
     width: 328.08px;
 }
 
-.paragraph-bold {
+.paragraph-bold, option {
     font-weight: bold;
 }
 
@@ -131,48 +130,69 @@ body {
     margin-bottom: 65px;
 }
 
-.select-size-container {
-    background-color: #106F77;
+.size {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-left: 10px;
     color: #ffff;
-
+    background-color: #106F77;
+    font-weight: bold;
+    height: 65px;
+    width: 297px;  
 }
 
-#size {
-    width: 100px;
-    
+option {
+    background-color: #ffff;
+    color: black;
 }
+
+
 .flex-space-between {
     display: flex;
     justify-content: space-between;
 }
 
 .logg-inn-h1 {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 42px;
     text-align: center;
 }
 
 .forgot-password-text {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
 
+.icon-ul{
+    display: inline-flex;
+    margin-top: 3.5px;
+    margin-right: 12%;
+}
+
+.icon-il {
+    margin-left: 25px;
+}
+
+
 nav {
+    display: flex;
+    justify-content: space-between;
     background-color: #106F77;
 }
 
+
 ul {
-    font-family: arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: bold;
     margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20%;
+    padding: 0px;
 }
 
 li {
     display: inline-block;
-    margin-left: 165px;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-right: 105px;
 }
 
 a {
