@@ -112,6 +112,48 @@ body {
     margin-top: 20px;
 }
 
+#add-to-cart {
+    display: none;
+}
+
+.add-to-cart-cta {
+    background-color:  #106F77;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    padding-top: 13px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+    width: 260px;
+}
+
+.add-to-cart-overlay-container {
+    display: none;
+    position: absolute;
+    border-style: solid;
+    background-color: #fff;
+    top: 200px;
+    right: 38%;
+    top: 38%;
+    height: 327px;
+    width: 477px;
+}
+
+#add-to-cart:checked ~ .add-to-cart-overlay-container {
+    display: block;
+}
+
+.overlay-cta-container-store {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 50px;   
+}
+
+.overlay-logo {
+    margin-left: 130px;
+}
 
 .product-container-two {
     width: 328.08px;
@@ -150,6 +192,45 @@ option {
 .flex-space-between {
     display: flex;
     justify-content: space-between;
+}
+
+.guide-line {
+    background-color: green;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.h1-shipping-adress {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+
+.input-container {
+    margin: 0px auto 20px auto;
+    width: fit-content;
+}
+
+.shipping-adress-input {
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    height: 40px;
+    width: 510px;
+}
+
+.input-text-shipping-adress {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 2px
+}
+
+.cta-shipping-adress {
+    display: block;
+    margin: 20px auto
 }
 
 .logg-inn-h1 {
@@ -205,7 +286,6 @@ nav a:hover {
 }
 
 .name, .lastname, .email, .password, .confirm-password {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 11px;
     font-weight: bold;
 }
