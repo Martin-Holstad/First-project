@@ -194,10 +194,9 @@ option {
     justify-content: space-between;
 }
 
-.guide-line {
+.guide-line-container {
     background-color: green;
     display: flex;
-    align-items: baseline;
     justify-content: center;
 }
 
