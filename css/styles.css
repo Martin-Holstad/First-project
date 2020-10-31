@@ -194,10 +194,21 @@ option {
     justify-content: space-between;
 }
 
+.flex {
+    display: flex;
+}
+
 .guide-line-container {
-    background-color: green;
     display: flex;
     justify-content: center;
+}
+
+.guide-line {
+    margin: 24px 6px 0px 6px;
+}
+
+.guide-line-text {
+    text-decoration: underline;
 }
 
 .h1-shipping-adress {
@@ -231,6 +242,107 @@ option {
     display: block;
     margin: 20px auto
 }
+
+.h1-payment {
+    text-align: center;
+}
+
+.payment-container {
+    display: flex;
+    padding-left: 36.5%;
+}
+
+.visa-checkbox-container {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.visa-input-container {
+    display: none;
+    left: 36.5%;
+    top: 55%;
+    position: absolute;
+}
+
+#visa-checkbox:checked ~ .visa-input-container {
+    display: block;
+}
+
+
+#name-on-card, #card-information-big, #email-payment {
+    width: 515px;
+    height: 35px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+#card-information {
+    height: 35px;
+    width: 255px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: black;
+}
+
+.payment-input-text {
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.paypal-logo {
+    margin-left: 158px;
+}
+
+.h1-paypal {
+    font-size: 28px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0px 0px 45px 0px;
+}
+
+.paypal-checkbox-container {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 40%;
+}
+
+.paypal-container {
+    display: none;
+    position: absolute;
+    border-style: solid;
+    top: 49%;
+    left: 36.5%;
+    height: 400px;
+    width: 515px;
+}
+
+#username-paypal, #password-paypal {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    height: 30px;
+    width: 300px;
+    margin-left: 98px;
+
+}
+
+.paypal-input-text {
+    margin-left: 100px;
+}
+
+#paypal-checkbox:checked ~ .paypal-container {
+    display: block;
+}
+
+.cta-payment-container {
+    position: absolute;
+    margin: 20px;
+    left: 35%;
+    top: 90%;
+}
+
 
 .logg-inn-h1 {
     font-size: 42px;
@@ -294,6 +406,35 @@ nav a:hover {
     padding: 0px;
     color: #8D8D8D;
 }
+
+.h1-overview {
+    text-align: center;
+}
+
+.h2-overview {
+    margin-bottom: 30px;
+}
+
+.overview-container-one {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 220px;
+}
+
+.overview-text {
+    margin: 5px;
+}
+
+.price-flex-overview {
+    display: flex;
+    align-items: baseline;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
 
 
 
