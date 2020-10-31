@@ -415,25 +415,42 @@ nav a:hover {
     margin-bottom: 30px;
 }
 
+.h3-overview {
+    margin-bottom: 40px;
+}
+
 .overview-container-one {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    padding-left: 200px;
-    padding-right: 220px;
+    padding-left: 12%;
+    padding-right: 13%;
 }
 
 .overview-text {
-    margin: 5px;
+    margin: 2px;
 }
 
 .price-flex-overview {
     display: flex;
     align-items: baseline;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    height: 35px;
 }
 
+.price-overview {
+    margin-left: 50px;
+}
+
+.overview-container-two {
+    padding-left: 30%;
+    padding-top: 100px;
+    margin-bottom: 60px;
+}
+
+.cta-overview {
+    padding-left: 34%;
+    margin-bottom: 20px;
+}
 
 
 
