@@ -363,6 +363,11 @@ option {
     margin-left: 25px;
 }
 
+#search {
+    margin-top: 4px;
+    height: 25px;
+}
+
 
 nav {
     display: flex;
@@ -394,6 +399,67 @@ a {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+.contact-us-container {
+    color: #fff;
+    position: absolute;
+    left: 45%;
+    top: 15px;
+}
+
+.contact-us-container:hover{
+    text-decoration: underline;
+}
+
+.contact-us-overlay-container {
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 450px;
+    height: 510px;
+    left: -135px;
+    top: 250px;
+}
+
+.contact-us-overlay-logo {
+    margin-left: 105px;
+    margin-top: 20px;
+}
+
+.contact-us-overlay-h1 {
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
+.contact-us-overlay-text {
+    text-align: center;
+    color: black;
+    font-weight: normal;
+}
+
+.contact-us-overlay-sub-text {
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+}
+
+.contact-us-overlay-cta {
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+#contact-us {
+    display: none;
+}
+
+#contact-us:checked ~ .contact-us-overlay-container {
+    display: block;
 }
 
 .name, .lastname, .email, .password, .confirm-password {
@@ -451,6 +517,78 @@ nav a:hover {
     padding-left: 34%;
     margin-bottom: 20px;
 }
+
+.payment-complete-container, .forgot-password-complete-container, .register-complete-container {
+    border-style: solid;
+    border-width: 2px;
+    width: 700px;
+    height: 450px;
+    margin: auto;
+    margin-top: 250px;
+
+}
+
+.payment-complete-logo, .forgot-password-logo, .register-complete-logo {
+    margin-left: 231px;
+}
+
+.h1-payment-complete, .h1-forgot-password-complete {
+    text-align: center;
+}
+
+.circle {
+    background-color: #36EE4F;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    margin-top: 30px;  
+}
+
+.payment-complete-check-icon {
+    position: absolute;
+    margin-left: 332px;
+    top: 489px;
+}
+
+.payment-complete-text, .forgot-password-text, .register-complete-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.payment-complete-home-icon, .forgot-password-home-icon, .register-complete-home-icon {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.payment-complete-home-link, .forgot-password-home-link, .register-complete-home-link {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+
+.forgot-password-check-icon{
+    position: absolute;
+    margin-left: 332px;
+    top: 442px;
+}
+
+.register-complete-check-icon {
+    position: absolute;
+    margin-left: 332px;
+    top: 442px;
+}
+
+.h1-register-complete {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+
+
+
 
 
 

@@ -2,7 +2,7 @@
 <html>
   <head>
       <title>
-          Rainydays/shipping-adress
+          Rainydays/register
       </title>
       <meta name="description" content="Rainydays sells high-quality rain jackets">
       <meta name="viewport" content="width=device-width, initial-scale1.0">
@@ -15,14 +15,14 @@
                 <li><a href="../men-jacket/men-jacket.html">MEN</a></li>
                 <li><a href="../women-jacket/women-jacket.html">WOMEN</a></li>
                 <li><a href="../contact-us.html">CONTACT US</a></li>
-                <li><a href="../about-us.html">ABOUT us</a></li>
+                <li><a href="../about-us.html">ABOUT US</a></li>
               </ul>
               <div class="icon-ul">
                 <div class="icon-il">
                   <a class="icon-li"href="../search.html"><img src="../images/icons/search.png"></a> 
                 </div>
                 <div class="icon-il">
-                  <a href="../search.html"><img src="../images/icons/search-bar.png"></a>  
+                  <input type="text" name="search" id="search">  
                 </div>
                 <div class="icon-il">
                   <a href="../index.html"><img src="../images/icons/home.png"></a> 
@@ -35,12 +35,46 @@
                 </div>
             </div>
           </nav>
+          <div class="logo">
+            <a href="../index.html">
+                <img src="../images/logo/logo.png" alt="logo of rainydays"></a>
+          </div>
       </header>
       <main>
-          <h1></h1>
+          <h1 class="h1-shipping-adress">Register</h1>
+          <section>
+              <div class="input-container">
+              <p class="input-text-shipping-adress">First name</p>
+              <input class="shipping-adress-input" type="text" name="firstname">
+              </div>
+              <div class="input-container">
+              <p class="input-text-shipping-adress">Last name</p>   
+              <input class="shipping-adress-input" type="text" name="lastname">
+              </div>
+              <div>
+                <p></p>
+              </div>
+              <div class="input-container">
+              <p class="input-text-shipping-adress">E-postadresse*</p>
+              <input class="shipping-adress-input" type="text" name="shipping-adress">
+              </div>
+              <div class="input-container">
+              <p class="input-text-shipping-adress">Password*</p>
+              <input class="shipping-adress-input" type="text" name="postal-code">
+              </div>
+              <div class="input-container">
+              <p class="input-text-shipping-adress">Confirm Password*</p>   
+              <input class="shipping-adress-input" type="text" name="county">
+              </div>
+          </section>
+          <section class="cta-shipping-adress-container">
+              <a href="../purchase/proceed with register.html">
+              <img class="cta-shipping-adress" src="../images/cta buttons/cta store/cta proceed big.png" alt="proceed"></a>
+              <a href="../men-jacket/jacket-select-1.html">
+              <img class="cta-shipping-adress" src="../images/cta buttons/cta store/cta go back big 2.png" alt="go back"></a>
+          </section>
       </main>
       <footer>
-          Copyright &copy;
       </footer>
   </body> 
 </html>
