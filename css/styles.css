@@ -442,6 +442,10 @@ option {
     font-weight: bold;
 }
 
+.profile-label:hover {
+    text-decoration: underline;
+}
+
 #profile {
     display: none;
 }
@@ -679,7 +683,7 @@ nav a:hover {
     top: 489px;
 }
 
-.payment-complete-text, .forgot-password-text, .register-complete-text {
+.payment-complete-text, .forgot-password-complete-text, .register-complete-text {
     text-align: center;
     margin-top: 20px;
 }
@@ -695,16 +699,18 @@ nav a:hover {
     text-decoration: underline;
 }
 
+
+
 .forgot-password-check-icon{
     position: absolute;
     margin-left: 332px;
-    top: 442px;
+    top: 470px;
 }
 
 .register-complete-check-icon {
     position: absolute;
     margin-left: 332px;
-    top: 442px;
+    top: 445px;
 }
 
 .h1-register-complete {
@@ -712,6 +718,48 @@ nav a:hover {
     font-size: 20px;
     margin-top: 30px;
 }
+
+.forgot-password-container {
+    background-color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    width: 560px;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.forgot-password-logo {
+    margin-left: 230px;
+    margin-bottom: 60px;
+}
+
+.forgot-password-text {
+    max-width: 550px;
+    text-align: start;
+}
+
+.forgot-password-text-two {
+    margin: 0px;
+}
+
+#E-postadresse-forgot-password {
+    width: 528px;
+    height: 40px;
+    margin-bottom: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.cta-go-back-forgot-password {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.cta-send-forgot-password {
+    margin-left: 10px;
+}
+
 
 
 
