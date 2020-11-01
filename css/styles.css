@@ -363,11 +363,139 @@ option {
     margin-left: 25px;
 }
 
+#icon-cart-il {
+    position: absolute;
+    right: 90px;
+    top: 2px;
+}
+
+.cart-overlay-container {
+    position: absolute;
+    display: none;
+    width: 219px;
+    height: 918px;
+    top: 45px;
+    left: -100px;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.cart-label {
+    position: absolute;
+    top: 15px;
+    right: -60px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.cart-label:hover {
+    text-decoration: underline;
+}
+
+#cart {
+    display: none;
+}
+
+#cart:checked ~ .cart-overlay-container {
+    display: block;
+}
+
+.h1-cart {
+    text-align: center;
+}
+
+.picture-cart {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.proceed-cta-cart {
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.cancel-cta-cart {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#icon-profile-il {
+    margin-left: 30px;
+}
+
+.profile-overlay-container {
+    display: none;
+    position: absolute;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #fff;
+    top: 270px;
+    left: 33%;
+    width: 650px;
+}
+.profile-label {
+    position: absolute;
+    margin-left: 10px;
+    top: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#profile {
+    display: none;
+}
+
+#profile:checked ~ .profile-overlay-container {
+    display: block;
+}
+
+.logo-profile {
+    margin-left: 210px;
+}
+
+.h1-profile {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.input-text-profile {
+    font-size: 11px;
+    margin: 0px;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+.input-link-password {
+    color: #8D8D8D;
+    font-size: 11px;
+    margin: 5px;
+    margin-left: 75px;
+    text-decoration: underline;   
+}
+
+.input-profile {
+    height: 30px;
+    width: 500px;
+    margin-left: 75px;
+}
+
+.cta-profile-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cta-go-back-profile {
+    margin-left: 55px;
+    margin-top: 2px;
+}
+
 #search {
     margin-top: 4px;
     height: 25px;
 }
-
 
 nav {
     display: flex;
