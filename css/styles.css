@@ -704,7 +704,7 @@ nav a:hover {
 .forgot-password-check-icon{
     position: absolute;
     margin-left: 332px;
-    top: 470px;
+    top: 480px;
 }
 
 .register-complete-check-icon {
@@ -731,20 +731,30 @@ nav a:hover {
 .forgot-password-logo {
     margin-left: 230px;
     margin-bottom: 60px;
+    margin-top: 10px;
+}
+
+.forgot-password-logo-two {
+    margin-bottom: 60px;
+    margin-left: 170px;
+    margin-top: 10px;
 }
 
 .forgot-password-text {
     max-width: 550px;
     text-align: start;
+    margin-left: 10px;
 }
 
 .forgot-password-text-two {
     margin: 0px;
+    margin-left: 10px;
 }
 
 #E-postadresse-forgot-password {
     width: 528px;
     height: 40px;
+    margin-left: 10px;
     margin-bottom: 30px;
     border-style: solid;
     border-width: 2px;
@@ -759,6 +769,46 @@ nav a:hover {
 .cta-send-forgot-password {
     margin-left: 10px;
 }
+
+
+@media only screen and (max-width: 1685px) {
+    ul {
+        margin-left: 90px;
+        }
+        .contact-us-container {
+            left: 550px;
+        }
+        .profile-label {
+            margin-left: 10px;
+        }
+        .icon-ul {
+            margin-right: 300px;
+        }
+        #icon-cart-il {
+            right: 160px;
+        }
+        .cart-overlay-container {
+            left: -30px;
+        }
+        
+}
+
+@media only screen and (max-width: 1320px){
+    ul {
+        display: none;
+    }
+    .icon-ul {
+        margin-left: 300px;
+    }
+    #icon-cart-il {
+        right: 460px;
+    }
+}
+
+@media only screen and (max-width: 1319px) {
+}
+
+
 
 
 
