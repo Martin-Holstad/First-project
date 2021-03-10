@@ -1,830 +1,821 @@
 header {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo {
-    margin: 15px auto 50px auto;
-    width: fit-content;
+  margin: 15px auto 50px auto;
+  width: fit-content;
 }
 
 .background {
-    background-image: url('../images/images/background.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-image: url("../images/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .home-h1 {
-    font-weight: bold;
-    font-size: 22px;
-    text-align: center;
-    color: #ffff;    
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  color: #ffff;
 }
 
-.contact-us-h1, .about-us-h1 {
-    text-align: center;
+.contact-us-h1,
+.about-us-h1 {
+  text-align: center;
 }
 
 .about-us-text-container {
-    width: 35%;
-    margin: 0 auto;
-    margin-top: 50px;
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
-
 .home-text {
-    margin: auto auto;
-    width: 540px;
-    font-size: 22px;
-    text-align: center;
-    color: #ffff;
+  margin: auto auto;
+  width: 540px;
+  font-size: 22px;
+  text-align: center;
+  color: #ffff;
 }
 
 .home-images {
-    text-align: center;
+  text-align: center;
 }
 
-
-.product-item, .product-cta {
-    margin: 5px;
+.product-item,
+.product-cta {
+  margin: 5px;
 }
 
 .cta-container-home {
-    text-align: center; 
-    margin-top: 40px;
+  text-align: center;
+  margin-top: 40px;
 }
 
-.container-men, .container-women {
-    text-align: center;
-    font-weight: bold;
-    color: #ffff;
+.container-men,
+.container-women {
+  text-align: center;
+  font-weight: bold;
+  color: #ffff;
 }
 
-.product-container-men, .product-container-women {
-    display: inline-block;
-    margin: 10px 10px;
+.product-container-men,
+.product-container-women {
+  display: inline-block;
+  margin: 10px 10px;
 }
 
-.product-text-1-men, .product-text-1-women {
-    text-align: start;
-    margin: 0px;
+.product-text-1-men,
+.product-text-1-women {
+  text-align: start;
+  margin: 0px;
 }
 
-.product-text-2-men, .product-text-2-women {
-    text-align: start;
-    margin: 0px;
+.product-text-2-men,
+.product-text-2-women {
+  text-align: start;
+  margin: 0px;
 }
 
 .price {
-    position: relative;
-    text-align: end;
-    margin-top: -17px;
+  position: relative;
+  text-align: end;
+  margin-top: -17px;
 }
 
 .flex-main {
-    display: flex;
+  display: flex;
 }
 
 .product-container {
-    width: fit-content;
-    margin-left: 21%;
-    margin-right: 12%;
+  width: fit-content;
+  margin-left: 21%;
+  margin-right: 12%;
 }
 
 .product-image-small {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 
 .back-to-top-cta {
-    text-align: center;
+  text-align: center;
 }
 
 .cta-product-container {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 20px;
 }
 
 #add-to-cart {
-    display: none;
+  display: none;
 }
 
 .add-to-cart-cta {
-    background-color:  #106F77;
-    font-weight: bold;
-    font-size: 22px;
-    color: #fff;
-    text-align: center;
-    padding-top: 13px;
-    border-radius: 50px;
-    margin-bottom: 5px;
-    width: 260px;
+  background-color: #106f77;
+  font-weight: bold;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+  padding-top: 13px;
+  border-radius: 50px;
+  margin-bottom: 5px;
+  width: 260px;
 }
 
 .add-to-cart-overlay-container {
-    display: none;
-    position: absolute;
-    border-style: solid;
-    background-color: #fff;
-    top: 200px;
-    right: 38%;
-    top: 38%;
-    height: 327px;
-    width: 477px;
+  display: none;
+  position: absolute;
+  border-style: solid;
+  background-color: #fff;
+  top: 200px;
+  right: 38%;
+  top: 38%;
+  height: 327px;
+  width: 477px;
 }
 
 #add-to-cart:checked ~ .add-to-cart-overlay-container {
-    display: block;
+  display: block;
 }
 
 .overlay-cta-container-store {
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    margin-top: 50px;   
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-top: 50px;
 }
 
 .overlay-logo {
-    margin-left: 130px;
+  margin-left: 130px;
 }
 
 .product-container-two {
-    width: 328.08px;
+  width: 328.08px;
 }
 
-.paragraph-bold, option {
-    font-weight: bold;
+.paragraph-bold,
+option {
+  font-weight: bold;
 }
 
 .star-container {
-    margin-bottom: -15px;
+  margin-bottom: -15px;
 }
 
 .product-name-container {
-    margin-top: -20px;
-    margin-bottom: 65px;
+  margin-top: -20px;
+  margin-bottom: 65px;
 }
 
 .size {
-    margin-top: 60px;
-    margin-bottom: 60px;
-    padding-left: 10px;
-    color: #ffff;
-    background-color: #106F77;
-    font-weight: bold;
-    height: 65px;
-    width: 297px;  
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-left: 10px;
+  color: #ffff;
+  background-color: #106f77;
+  font-weight: bold;
+  height: 65px;
+  width: 297px;
 }
 
 option {
-    background-color: #ffff;
-    color: black;
+  background-color: #ffff;
+  color: black;
 }
 
-
 .flex-space-between {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .guide-line-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .guide-line {
-    margin: 24px 6px 0px 6px;
+  margin: 24px 6px 0px 6px;
 }
 
 .guide-line-text {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .h1-shipping-adress {
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 40px;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 40px;
 }
 
-
 .input-container {
-    margin: 0px auto 20px auto;
-    width: fit-content;
+  margin: 0px auto 20px auto;
+  width: fit-content;
 }
 
 .shipping-adress-input {
-    display: block;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-    height: 40px;
-    width: 510px;
+  display: block;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  height: 40px;
+  width: 510px;
 }
 
 .input-text-shipping-adress {
-    font-weight: bold;
-    font-size: 12px;
-    margin-bottom: 2px
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 2px;
 }
 
 .cta-shipping-adress {
-    display: block;
-    margin: 20px auto
+  display: block;
+  margin: 20px auto;
 }
 
 .h1-payment {
-    text-align: center;
+  text-align: center;
 }
 
 .payment-container {
-    display: flex;
-    padding-left: 36.5%;
+  display: flex;
+  padding-left: 36.5%;
 }
 
 .visa-checkbox-container {
-    padding-top: 10px;
-    padding-left: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 .visa-input-container {
-    display: none;
-    left: 36.5%;
-    top: 55%;
-    position: absolute;
+  display: none;
+  left: 36.5%;
+  top: 55%;
+  position: absolute;
 }
 
 #visa-checkbox:checked ~ .visa-input-container {
-    display: block;
+  display: block;
 }
 
-
-#name-on-card, #card-information-big, #email-payment {
-    width: 515px;
-    height: 35px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
+#name-on-card,
+#card-information-big,
+#email-payment {
+  width: 515px;
+  height: 35px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
 }
 
 #card-information {
-    height: 35px;
-    width: 255px;
-    border-style: solid;
-    border-width: 0.5px;
-    border-color: black;
+  height: 35px;
+  width: 255px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: black;
 }
 
 .payment-input-text {
-    margin-bottom: 0px;
-    font-size: 12px;
-    font-weight: bold;
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .paypal-logo {
-    margin-left: 158px;
+  margin-left: 158px;
 }
 
 .h1-paypal {
-    font-size: 28px;
-    font-weight: normal;
-    text-align: center;
-    margin: 0px 0px 45px 0px;
+  font-size: 28px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0px 0px 45px 0px;
 }
 
 .paypal-checkbox-container {
-    padding-top: 10px;
-    padding-left: 10px;
-    margin-bottom: 40%;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 40%;
 }
 
 .paypal-container {
-    display: none;
-    position: absolute;
-    border-style: solid;
-    top: 49%;
-    left: 36.5%;
-    height: 400px;
-    width: 515px;
+  display: none;
+  position: absolute;
+  border-style: solid;
+  top: 49%;
+  left: 36.5%;
+  height: 400px;
+  width: 515px;
 }
 
-#username-paypal, #password-paypal {
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-    height: 30px;
-    width: 300px;
-    margin-left: 98px;
-
+#username-paypal,
+#password-paypal {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  height: 30px;
+  width: 300px;
+  margin-left: 98px;
 }
 
 .paypal-input-text {
-    margin-left: 100px;
+  margin-left: 100px;
 }
 
 #paypal-checkbox:checked ~ .paypal-container {
-    display: block;
+  display: block;
 }
 
 .cta-payment-container {
-    position: absolute;
-    margin: 20px;
-    left: 35%;
-    top: 90%;
+  position: absolute;
+  margin: 20px;
+  left: 35%;
+  top: 90%;
 }
 
-
 .logg-inn-h1 {
-    font-size: 42px;
-    text-align: center;
+  font-size: 42px;
+  text-align: center;
 }
 
 .forgot-password-text {
-    font-size: 18px;
+  font-size: 18px;
 }
 
-.icon-ul{
-    display: inline-flex;
-    margin-top: 3.5px;
-    margin-right: 12%;
+.icon-ul {
+  display: inline-flex;
+  margin-top: 3.5px;
+  margin-right: 12%;
 }
 
 .icon-il {
-    margin-left: 25px;
+  margin-left: 25px;
 }
 
 #icon-cart-il {
-    position: absolute;
-    right: 90px;
-    top: 2px;
+  position: absolute;
+  right: 90px;
+  top: 2px;
 }
 
 .cart-overlay-container {
-    position: absolute;
-    display: none;
-    width: 219px;
-    height: 918px;
-    top: 45px;
-    left: -100px;
-    background-color: #fff;
-    border-style: solid;
-    border-width: 2px;
+  position: absolute;
+  display: none;
+  width: 219px;
+  height: 918px;
+  top: 45px;
+  left: -100px;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 2px;
 }
 
 .cart-label {
-    position: absolute;
-    top: 15px;
-    right: -60px;
-    color: #fff;
-    font-weight: bold;
+  position: absolute;
+  top: 15px;
+  right: -60px;
+  color: #fff;
+  font-weight: bold;
 }
 
 .cart-label:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #cart {
-    display: none;
+  display: none;
 }
 
 #cart:checked ~ .cart-overlay-container {
-    display: block;
+  display: block;
 }
 
 .h1-cart {
-    text-align: center;
+  text-align: center;
 }
 
 .picture-cart {
-    margin-left: 40px;
-    margin-top: 30px;
+  margin-left: 40px;
+  margin-top: 30px;
 }
 
 .proceed-cta-cart {
-    margin-top: 30px;
-    margin-left: 5px;
+  margin-top: 30px;
+  margin-left: 5px;
 }
 
 .cancel-cta-cart {
-    margin-top: 10px;
-    margin-left: 5px;
+  margin-top: 10px;
+  margin-left: 5px;
 }
 
 #icon-profile-il {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .profile-overlay-container {
-    display: none;
-    position: absolute;
-    border-style: solid;
-    border-width: 2px;
-    background-color: #fff;
-    top: 270px;
-    left: 33%;
-    width: 650px;
+  display: none;
+  position: absolute;
+  border-style: solid;
+  border-width: 2px;
+  background-color: #fff;
+  top: 270px;
+  left: 33%;
+  width: 650px;
 }
 .profile-label {
-    position: absolute;
-    margin-left: 10px;
-    top: 15px;
-    color: #fff;
-    font-weight: bold;
+  position: absolute;
+  margin-left: 10px;
+  top: 15px;
+  color: #fff;
+  font-weight: bold;
 }
 
 .profile-label:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #profile {
-    display: none;
+  display: none;
 }
 
 #profile:checked ~ .profile-overlay-container {
-    display: block;
+  display: block;
 }
 
 .logo-profile {
-    margin-left: 210px;
+  margin-left: 210px;
 }
 
 .h1-profile {
-    text-align: center;
-    font-weight: bold;
-    font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .input-text-profile {
-    font-size: 11px;
-    margin: 0px;
-    margin-left: 75px;
-    margin-top: 20px;
+  font-size: 11px;
+  margin: 0px;
+  margin-left: 75px;
+  margin-top: 20px;
 }
 
 .input-link-password {
-    color: #8D8D8D;
-    font-size: 11px;
-    margin: 5px;
-    margin-left: 75px;
-    text-decoration: underline;   
+  color: #8d8d8d;
+  font-size: 11px;
+  margin: 5px;
+  margin-left: 75px;
+  text-decoration: underline;
 }
 
 .input-profile {
-    height: 30px;
-    width: 500px;
-    margin-left: 75px;
+  height: 30px;
+  width: 500px;
+  margin-left: 75px;
 }
 
 .cta-profile-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .cta-go-back-profile {
-    margin-left: 55px;
-    margin-top: 2px;
+  margin-left: 55px;
+  margin-top: 2px;
 }
 
 #search {
-    margin-top: 4px;
-    height: 25px;
+  margin-top: 4px;
+  height: 25px;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    background-color: #106F77;
+  display: flex;
+  justify-content: space-between;
+  background-color: #106f77;
 }
 
-
 ul {
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 20%;
-    padding: 0px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 20%;
+  padding: 0px;
 }
 
 li {
-    display: inline-block;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-right: 105px;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 105px;
 }
 
 a {
-    text-decoration: none;
-    color: #ffff;
+  text-decoration: none;
+  color: #ffff;
 }
 
 nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .contact-us-container {
-    color: #fff;
-    position: absolute;
-    left: 45%;
-    top: 15px;
+  color: #fff;
+  position: absolute;
+  left: 45%;
+  top: 15px;
 }
 
-.contact-us-container:hover{
-    text-decoration: underline;
+.contact-us-container:hover {
+  text-decoration: underline;
 }
 
 .contact-us-overlay-container {
-    position: absolute;
-    display: none;
-    background-color: #fff;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-    width: 450px;
-    height: 510px;
-    left: -135px;
-    top: 250px;
+  position: absolute;
+  display: none;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  width: 450px;
+  height: 510px;
+  left: -135px;
+  top: 250px;
 }
 
 .contact-us-overlay-logo {
-    margin-left: 105px;
-    margin-top: 20px;
+  margin-left: 105px;
+  margin-top: 20px;
 }
 
 .contact-us-overlay-h1 {
-    text-align: center;
-    color: black;
-    font-size: 22px;
-    margin-bottom: 0px;
+  text-align: center;
+  color: black;
+  font-size: 22px;
+  margin-bottom: 0px;
 }
 
 .contact-us-overlay-text {
-    text-align: center;
-    color: black;
-    font-weight: normal;
+  text-align: center;
+  color: black;
+  font-weight: normal;
 }
 
 .contact-us-overlay-sub-text {
-    text-align: center;
-    color: black;
-    margin-top: 30px;
+  text-align: center;
+  color: black;
+  margin-top: 30px;
 }
 
 .contact-us-overlay-cta {
-    margin-left: 90px;
-    margin-top: 30px;
+  margin-left: 90px;
+  margin-top: 30px;
 }
 
 #contact-us {
-    display: none;
+  display: none;
 }
 
 #contact-us:checked ~ .contact-us-overlay-container {
-    display: block;
+  display: block;
 }
 
-.name, .lastname, .email, .password, .confirm-password {
-    font-size: 11px;
-    font-weight: bold;
+.name,
+.lastname,
+.email,
+.password,
+.confirm-password {
+  font-size: 11px;
+  font-weight: bold;
 }
 
 .forgot-password {
-    font-size: 11px;
-    padding: 0px;
-    color: #8D8D8D;
+  font-size: 11px;
+  padding: 0px;
+  color: #8d8d8d;
 }
 
 .h1-overview {
-    text-align: center;
+  text-align: center;
 }
 
 .h2-overview {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .h3-overview {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .overview-container-one {
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    padding-left: 12%;
-    padding-right: 13%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding-left: 12%;
+  padding-right: 13%;
 }
 
 .overview-text {
-    margin: 2px;
+  margin: 2px;
 }
 
 .price-flex-overview {
-    display: flex;
-    align-items: baseline;
-    height: 35px;
+  display: flex;
+  align-items: baseline;
+  height: 35px;
 }
 
 .price-overview {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .overview-container-two {
-    padding-left: 30%;
-    padding-top: 100px;
-    margin-bottom: 60px;
+  padding-left: 30%;
+  padding-top: 100px;
+  margin-bottom: 60px;
 }
 
 .cta-overview {
-    padding-left: 34%;
-    margin-bottom: 20px;
+  padding-left: 34%;
+  margin-bottom: 20px;
 }
 
-.payment-complete-container, .forgot-password-complete-container, .register-complete-container {
-    border-style: solid;
-    border-width: 2px;
-    width: 700px;
-    height: 450px;
-    margin: auto;
-    margin-top: 250px;
-
+.payment-complete-container,
+.forgot-password-complete-container,
+.register-complete-container {
+  border-style: solid;
+  border-width: 2px;
+  width: 700px;
+  height: 450px;
+  margin: auto;
+  margin-top: 250px;
 }
 
-.payment-complete-logo, .forgot-password-logo, .register-complete-logo {
-    margin-left: 231px;
+.payment-complete-logo,
+.forgot-password-logo,
+.register-complete-logo {
+  margin-left: 231px;
 }
 
-.h1-payment-complete, .h1-forgot-password-complete {
-    text-align: center;
+.h1-payment-complete,
+.h1-forgot-password-complete {
+  text-align: center;
 }
 
 .circle {
-    background-color: #36EE4F;
-    border-radius: 50%;
-    width: 90px;
-    height: 90px;
-    margin: auto;
-    margin-top: 30px;  
+  background-color: #36ee4f;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  margin-top: 30px;
 }
 
 .payment-complete-check-icon {
-    position: absolute;
-    margin-left: 332px;
-    top: 489px;
+  position: absolute;
+  margin-left: 332px;
+  top: 489px;
 }
 
-.payment-complete-text, .forgot-password-complete-text, .register-complete-text {
-    text-align: center;
-    margin-top: 20px;
+.payment-complete-text,
+.forgot-password-complete-text,
+.register-complete-text {
+  text-align: center;
+  margin-top: 20px;
 }
 
-.payment-complete-home-icon, .forgot-password-home-icon, .register-complete-home-icon {
-    text-align: center;
-    margin-top: 20px;
+.payment-complete-home-icon,
+.forgot-password-home-icon,
+.register-complete-home-icon {
+  text-align: center;
+  margin-top: 20px;
 }
 
-.payment-complete-home-link, .forgot-password-home-link, .register-complete-home-link {
-    text-align: center;
-    color: black;
-    text-decoration: underline;
+.payment-complete-home-link,
+.forgot-password-home-link,
+.register-complete-home-link {
+  text-align: center;
+  color: black;
+  text-decoration: underline;
 }
 
-
-
-.forgot-password-check-icon{
-    position: absolute;
-    margin-left: 332px;
-    top: 480px;
+.forgot-password-check-icon {
+  position: absolute;
+  margin-left: 332px;
+  top: 480px;
 }
 
 .register-complete-check-icon {
-    position: absolute;
-    margin-left: 332px;
-    top: 445px;
+  position: absolute;
+  margin-left: 332px;
+  top: 445px;
 }
 
 .h1-register-complete {
-    text-align: center;
-    font-size: 20px;
-    margin-top: 30px;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
 }
 
 .forgot-password-container {
-    background-color: #fff;
-    border-style: solid;
-    border-width: 2px;
-    width: 560px;
-    margin-left: 35%;
-    margin-top: 10%;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 2px;
+  width: 560px;
+  margin-left: 35%;
+  margin-top: 10%;
 }
 
 .forgot-password-logo {
-    margin-left: 230px;
-    margin-bottom: 60px;
-    margin-top: 10px;
+  margin-left: 230px;
+  margin-bottom: 60px;
+  margin-top: 10px;
 }
 
 .forgot-password-logo-two {
-    margin-bottom: 60px;
-    margin-left: 170px;
-    margin-top: 10px;
+  margin-bottom: 60px;
+  margin-left: 170px;
+  margin-top: 10px;
 }
 
 .forgot-password-text {
-    max-width: 550px;
-    text-align: start;
-    margin-left: 10px;
+  max-width: 550px;
+  text-align: start;
+  margin-left: 10px;
 }
 
 .forgot-password-text-two {
-    margin: 0px;
-    margin-left: 10px;
+  margin: 0px;
+  margin-left: 10px;
 }
 
 #E-postadresse-forgot-password {
-    width: 528px;
-    height: 40px;
-    margin-left: 10px;
-    margin-bottom: 30px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
+  width: 528px;
+  height: 40px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
 }
 
 .cta-go-back-forgot-password {
-    margin-top: 5px;
-    margin-left: 10px;
+  margin-top: 5px;
+  margin-left: 10px;
 }
 
 .cta-send-forgot-password {
-    margin-left: 10px;
+  margin-left: 10px;
 }
-
 
 @media only screen and (max-width: 1685px) {
-    ul {
-        margin-left: 90px;
-        }
-        .contact-us-container {
-            left: 550px;
-        }
-        .profile-label {
-            margin-left: 10px;
-        }
-        .icon-ul {
-            margin-right: 300px;
-        }
-        #icon-cart-il {
-            right: 160px;
-        }
-        .cart-overlay-container {
-            left: -30px;
-        }
-        
+  ul {
+    margin-left: 90px;
+  }
+  .contact-us-container {
+    left: 550px;
+  }
+  .profile-label {
+    margin-left: 10px;
+  }
+  .icon-ul {
+    margin-right: 300px;
+  }
+  #icon-cart-il {
+    right: 160px;
+  }
+  .cart-overlay-container {
+    left: -30px;
+  }
 }
 
-@media only screen and (max-width: 1320px){
-    ul {
-        display: none;
-    }
-    .icon-ul {
-        margin-left: 300px;
-    }
-    #icon-cart-il {
-        right: 460px;
-    }
+@media only screen and (max-width: 1320px) {
+  ul {
+    display: none;
+  }
+  .icon-ul {
+    margin-left: 300px;
+  }
+  #icon-cart-il {
+    right: 460px;
+  }
 }
 
 @media only screen and (max-width: 1319px) {
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
