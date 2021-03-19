@@ -112,40 +112,40 @@
   </header>
   <main>
     <h1 class="h1-shipping-adress">Register</h1>
-    <section>
+    <form class="register-form">
       <div class="input-container">
         <p class="input-text-shipping-adress">First name</p>
-        <input class="shipping-adress-input" type="text" name="firstname">
+        <input class="shipping-adress-input" id="first-name-input" type="text" name="firstname">
+        <p class="register-error-style" id="first-name-error">Please enter your first name</p>
       </div>
       <div class="input-container">
         <p class="input-text-shipping-adress">Last name</p>
-        <input class="shipping-adress-input" type="text" name="lastname">
+        <input class="shipping-adress-input" id="last-name-input" type="text" name="lastname">
+        <p class="register-error-style" id="last-name-error">Please enter your last name</p>
       </div>
       <div>
         <p></p>
       </div>
       <div class="input-container">
         <p class="input-text-shipping-adress">E-postadresse*</p>
-        <input class="shipping-adress-input" type="text" name="shipping-adress">
+        <input class="shipping-adress-input" id="e-postadresse-input" type="text" name="shipping-adress">
+        <p class="register-error-style" id="e-postadresse-error">Please enter your email adresse</p>
       </div>
       <div class="input-container">
         <p class="input-text-shipping-adress">Password*</p>
-        <input class="shipping-adress-input" type="text" name="postal-code">
+        <input class="shipping-adress-input" id="password-input" type="text" name="postal-code">
+        <p class="register-error-style" id="password-input-error">Please enter a password with atleast 6 letters</p>
       </div>
-      <div class="input-container">
-        <p class="input-text-shipping-adress">Confirm Password*</p>
-        <input class="shipping-adress-input" type="text" name="county">
-      </div>
-    </section>
-    <section class="cta-shipping-adress-container">
-      <a href="../purchase/proceed with register.html">
-        <img class="cta-shipping-adress" src="../images/cta buttons/cta store/cta proceed big.png" alt="proceed"></a>
-      <a href="../index.html">
-        <img class="cta-shipping-adress" src="../images/cta buttons/cta store/cta cancel big.png" alt="cancel"></a>
-    </section>
+      </section>
+      <section class="cta-shipping-adress-container">
+        <button class="cta-shipping-adress" id="cta-register">Proceed</button>
+        <a href="../index.html">
+          <img class="cta-shipping-adress" src="../images/cta buttons/cta store/cta cancel big.png" alt="cancel"></a>
+    </form>
   </main>
   <footer>
   </footer>
+  <script src="../js/shipping-adress-with-register.js"></script>
 </body>
 
 </html>

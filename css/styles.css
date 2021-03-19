@@ -244,6 +244,13 @@ option {
 .cta-shipping-adress {
   display: block;
   margin: 20px auto;
+  width: 520px;
+  height: 50px;
+  border-radius: 30px;
+  border-width: 0px;
+  background-color: #106F77;
+  color: white;
+  font-size: 20px;
 }
 
 .h1-payment {
@@ -782,6 +789,28 @@ nav a:hover {
 
 .cta-send-forgot-password {
   margin-left: 10px;
+}
+
+.profile-error {
+  display: none;
+  color: red;
+  margin-left: 74px;
+  margin-top: 10px;
+}
+
+.register-error-style {
+  display: none;
+  color: red;
+  margin-top: 10px;
+}
+
+.register-proceed-button{
+  background-color: #106f77;
+}
+
+.shipping-adress-guest-style {
+  display: none;
+  color: red;
 }
 
 @media only screen and (max-width: 1685px) {

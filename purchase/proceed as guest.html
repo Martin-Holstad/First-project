@@ -129,40 +129,51 @@
       </div>
     </section>
     <h1 class="h1-shipping-adress">Shipping adress</h1>
-    <section>
+    <form class="shipping-adress-form">
       <div class="input-container">
         <p class="input-text-shipping-adress">First name</p>
-        <input class="shipping-adress-input" type="text" name="firstname">
+        <input class="shipping-adress-input" id="shipping-guest-first-name-input" type="text" name="firstname">
+        <p class="shipping-adress-guest-style" id="shipping-adress-guest-first-name-error">Please enter your first name
+        </p>
       </div>
       <div class="input-container">
         <p class="input-text-shipping-adress">Last name</p>
-        <input class="shipping-adress-input" type="text" name="lastname">
+        <input class="shipping-adress-input" id="shipping-guest-last-name-input" type="text" name="lastname">
+        <p class="shipping-adress-guest-style" id="shipping-adress-guest-last-name-error">Please enter your last name
+        </p>
       </div>
       <div>
         <p></p>
       </div>
       <div class="input-container">
         <p class="input-text-shipping-adress">Shipping adress</p>
-        <input class="shipping-adress-input" type="text" name="shipping-adress">
+        <input class="shipping-adress-input" id="shipping-guest-shipping-adress-input" type="text"
+          name="shipping-adress">
+        <p class="shipping-adress-guest-style" id="shipping-adress-guest-shipping-adress-error">Please enter your
+          shipping adress</p>
       </div>
       <div class="input-container">
         <p class="input-text-shipping-adress">Postal code</p>
-        <input class="shipping-adress-input" type="text" name="postal-code">
+        <input class="shipping-adress-input" id="shipping-guest-postal-code-input" type="text" name="postal-code">
+        <p class="shipping-adress-guest-style" id="shipping-adress-guest-postal-code-error">Postal code must be atleast
+          4 digits</p>
       </div>
       <div class="input-container">
         <p class="input-text-shipping-adress">County</p>
-        <input class="shipping-adress-input" type="text" name="county">
+        <input class="shipping-adress-input" id="shipping-guest-county-input" type="text" name="county">
+        <p class="shipping-adress-guest-style" id="shipping-adress-guest-county-error">Count most atleast have 4 digits
+        </p>
       </div>
-    </section>
-    <section class="cta-shipping-adress-container">
-      <a href="choose-payment-method.html">
-        <img class="cta-shipping-adress" src="../images/cta buttons/cta store/cta proceed big.png" alt="proceed"></a>
-      <a href="../index.html">
-        <img class="cta-shipping-adress" src="../images/cta buttons/cta store/cta cancel big.png" alt="cancel"></a>
-    </section>
+      <section class="cta-shipping-adress-container">
+        <button class="cta-shipping-adress" id="shipping-adress-guest-cta">Proceed</button>
+        <a href="../index.html">
+          <img class="cta-shipping-adress" src="../images/cta buttons/cta store/cta cancel big.png" alt="cancel"></a>
+      </section>
+    </form>
   </main>
   <footer>
   </footer>
+  <script src="../js/proceed-as-guest.js"></script>
 </body>
 
 </html>
