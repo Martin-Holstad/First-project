@@ -248,7 +248,7 @@ option {
   height: 50px;
   border-radius: 30px;
   border-width: 0px;
-  background-color: #106F77;
+  background-color: #106f77;
   color: white;
   font-size: 20px;
 }
@@ -804,13 +804,23 @@ nav a:hover {
   margin-top: 10px;
 }
 
-.register-proceed-button{
+.register-proceed-button {
   background-color: #106f77;
 }
 
 .shipping-adress-guest-style {
   display: none;
   color: red;
+}
+
+.cart-count {
+  background-color: yellow;
+  position: absolute;
+  border-radius: 20px;
+  width: 20px;
+  text-align: center;
+  top: 15px;
+  right: 7px;
 }
 
 @media only screen and (max-width: 1685px) {
