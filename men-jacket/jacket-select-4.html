@@ -33,18 +33,52 @@
           <section class="contact-us-overlay-container">
             <img class="contact-us-overlay-logo" src="../images/logo/logo.png" alt="logo of rainydays">
             <h1 class="contact-us-overlay-h1">Contact us</h1>
-            <div>
-              <p class="contact-us-overlay-sub-text">Call us</p>
-              <p class="contact-us-overlay-text">43568712</p>
-              <p class="contact-us-overlay-text">From monday to Friday 7am to 4pm.</p>
-            </div>
-            <div>
-              <p class="contact-us-overlay-sub-text">Email us</p>
-              <p class="contact-us-overlay-text">Example@homtail.com</p>
-            </div>
-            <div class="contact-us-overlay-cta">
+            <div class="contact-us-form-message"></div>
+            <form class="contact-us-form">
+              <div>
+                <label>
+                  <p class="contact-us-input-text">First name (4 letters requierd)</p>
+                  <input type="text" name="fistname" id="first-name-contact-us">
+                </label>
+                <div>
+                  <p class="contact-us-input-error" id="first-name-contact-us-error">Please type your first name</p>
+                </div>
+              </div>
+              <div>
+                <label>
+                  <p class="contact-us-input-text">Last name (4 letters requierd</p>
+                  <input type="text" name="lastname" id="last-name-contact-us">
+                </label>
+                <div>
+                  <p class="contact-us-input-error" id="last-name-contact-us-error">Please type your last name</p>
+                </div>
+              </div>
+              <div>
+                <label>
+                  <p class="contact-us-input-text">Email adress (Example@hotmail.com)</p>
+                  <input type="text" name="email" id="email-contact-us">
+                </label>
+                <div>
+                  <p class="contact-us-input-error" id="email-contact-us-error">Email adress not correct</p>
+                </div>
+              </div>
+              <div>
+                <label>
+                  <p class="contact-us-input-text">Message (Must be atleast 10 letters)</p>
+                  <textarea name="message" id="message-contact-us"></textarea>
+                </label>
+                <div>
+                  <p class="contact-us-input-error" id="message-contact-us-error">Your message must atleast have 10
+                    letters</p>
+                </div>
+              </div>
+              <div>
+                <button disabled class="contact-us-submit-cta">Submit</button>
+              </div>
+            </form>
+            <div class="contact-us-go-back-cta-container">
               <a href="jacket-select-4.html">
-                <img src="../images/cta buttons/cta store/cta go back.png" alt="go back"></a>
+                <button class="contact-us-go-back-cta">Go back</button></a>
             </div>
           </section>
         </section>
@@ -61,6 +95,8 @@
           <a href="../index.html"><img src="../images/icons/home.png"></a>
         </div>
         <section id="icon-cart-il">
+          <div class="cart-count">
+          </div>
           <img src="../images/icons/shopping-bag.png">
           <label class="cart-label" for="cart">CART</label>
           <input type="checkbox" name="cart" id="cart">
@@ -124,7 +160,7 @@
           <img src="../images/images/empty pic small.jpg" alt="picture of product">
         </div>
         <div class="cta-product-container">
-          <label class="add-to-cart-cta" for="add-to-cart">Add to cart</label>
+          <label class="add-to-cart-cta" for="add-to-cart">Proceed to purchase</label>
           <input type="checkbox" id="add-to-cart">
           <section class="add-to-cart-overlay-container">
             <a href="../index.html">
@@ -185,6 +221,9 @@
           <option value="XL">XL</option>
         </select>
         <div>
+          <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
@@ -196,8 +235,9 @@
       </section>
   </main>
   <footer>
-    Copyright &copy;
   </footer>
+  <script src="../js/shopping-cart.js"></script>
+  <script src="../js/contact-us.js"></script>
 </body>
 
 </html>

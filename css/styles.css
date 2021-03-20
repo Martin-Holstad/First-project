@@ -253,6 +253,10 @@ option {
   font-size: 20px;
 }
 
+.cta-shipping-adress:disabled {
+  background-color: lightgray;
+}
+
 .h1-payment {
   text-align: center;
 }
@@ -561,9 +565,9 @@ nav a:hover {
   border-width: 2px;
   border-color: black;
   width: 450px;
-  height: 510px;
+  height: 830px;
   left: -135px;
-  top: 250px;
+  top: 100px;
 }
 
 .contact-us-overlay-logo {
@@ -578,6 +582,46 @@ nav a:hover {
   margin-bottom: 0px;
 }
 
+.contact-us-form-message {
+  color: green;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact-us-form {
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+#first-name-contact-us,
+#last-name-contact-us,
+#email-contact-us {
+  width: 300px;
+  height: 20px;
+}
+
+#message-contact-us {
+  width: 300px;
+  height: 100px;
+}
+
+.contact-us-input-error {
+  display: none;
+  color: red;
+  margin: 10px;
+  text-align: start;
+  margin-left: 73px;
+  font-size: 12px;
+}
+
+.contact-us-input-text {
+  text-align: start;
+  margin-left: 73px;
+  margin-top: 30px;
+}
+
 .contact-us-overlay-text {
   text-align: center;
   color: black;
@@ -590,9 +634,42 @@ nav a:hover {
   margin-top: 30px;
 }
 
-.contact-us-overlay-cta {
-  margin-left: 90px;
+.contact-us-cta-container {
+  display: flex;
+  justify-content: center;
   margin-top: 30px;
+  gap: 10px;
+}
+
+.contact-us-submit-cta {
+  background-color: #106f77;
+  color: white;
+  border-radius: 20px;
+  border-style: none;
+  height: 30px;
+  width: 230px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.contact-us-submit-cta:disabled {
+  background-color: lightgray;
+}
+
+.contact-us-go-back-cta-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.contact-us-go-back-cta {
+  width: 150px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: red;
+  color: white;
+  height: 30px;
+  font-size: 16px;
+  width: 230px;
 }
 
 #contact-us {
@@ -821,6 +898,17 @@ nav a:hover {
   text-align: center;
   top: 15px;
   right: 7px;
+}
+
+.add-to-cart {
+  background-color: #106f77;
+  border-style: none;
+  width: 290px;
+  height: 50px;
+  border-radius: 30px;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 35px;
 }
 
 @media only screen and (max-width: 1685px) {

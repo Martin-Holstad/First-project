@@ -11,21 +11,31 @@ const confirmPasswordInput = document.querySelector("#confirm-password-input");
 const confirmPasswordError = document.querySelector("#confirm-password-error");
 const registerButton = document.querySelector("#cta-register");
 
-function formRequireme() {
-  event.preventDefault();
-
-  if (firstNameInput.value.trim().length >= 1) {
-    firstNameError.style.display = "none";
+function buttonEnableContactUs() {
+  if (
+    checklengthContactUs(firstNameInput.value, 4) &&
+    checklengthContactUs(lastNameInput.value, 4) &&
+    emailRequirementsContactUs(epostInput.value) &&
+    checklengthContactUs(passwordInput.value, 6)
+  ) {
+    registerButton.disabled = false;
   } else {
-    firstNameError.style.display = "block";
+    button.disabled = true;
   }
 
-  if (lastNameInput.value.trim().length >= 1) {
+  if (firstNameInput.value.trim().length >= 4) {
+    firstNameError.style.display = "none";
+  } else {
+    firstNameError.style.disabled = "block";
+  }
+
+  if (lastNameInput.value.trim().length >= 4) {
     lastNameError.style.display = "none";
   } else {
     lastNameError.style.display = "block";
   }
-  if (emailRequirements(epostInput.value.trim()) === true) {
+
+  if (emailRequirementsContactUs(epostInput.value.trim()) === true) {
     epostError.style.display = "none";
   } else {
     epostError.style.display = "block";
@@ -38,18 +48,32 @@ function formRequireme() {
   }
 }
 
-if (
-  firstNameInput &&
-  lastNameInput &&
-  emailRequirements &&
-  passwordInput === true
-) {
-  window.location = "something";
+firstNameInput.addEventListener("keyup", buttonEnableContactUs);
+lastNameInput.addEventListener("keyup", buttonEnableContactUs);
+epostInput.addEventListener("keyup", buttonEnableContactUs);
+passwordInput.addEventListener("keyup", buttonEnableContactUs);
+
+function submitFormContactUs(event) {
+  event.preventDefault();
+
+  registerForm.reset();
 }
 
-registerForm.addEventListener("submit", formRequireme);
+registerForm.addEventListener("submit", submitFormContactUs);
 
-function emailRequirements(email) {
+function checklengthContactUs(valuee, lenn) {
+  if (valuee.trim().length >= lenn) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+registerButton.onclick = function () {
+  window.location = "http://127.0.0.1:5500/purchase/proceed%20as%20guest.html";
+};
+
+function emailRequirementsContactUs(email) {
   const requirements = /\S+@\S+\.\S+/;
   const emailMatch = requirements.test(email);
   return emailMatch;
