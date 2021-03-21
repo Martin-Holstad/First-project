@@ -165,21 +165,27 @@
     <h1 class="h1-shipping-adress">Shipping adress</h1>
     <form class="register-shipping-adress-form">
       <div class="input-container">
-        <p class="input-text-shipping-adress">Shipping adress</p>
-        <input class="shipping-adress-input" type="text" name="shipping-adress">
+        <p class="input-text-shipping-adress">Shipping adress (must be 6 letters)</p>
+        <input class="shipping-adress-input" id="register-shipping-adress-input" type="text" name="shipping-adress">
+        <p class="register-shipping-adress-error-hide" id="register-shipping-adress-error-display">Please enter your
+          shipping adress</p>
       </div>
       <div class="input-container">
-        <p class="input-text-shipping-adress">Postal code</p>
-        <input class="shipping-adress-input" type="text" name="postal-code">
+        <p class="input-text-shipping-adress">Postal code (must be 4 letters)</p>
+        <input class="shipping-adress-input" id="register-shipping-postal-input" type="text" name="postal-code">
+        <p class="register-shipping-adress-error-hide" id="register-shipping-postal-error-display">Please enter your
+          postal code</p>
       </div>
       <div class="input-container">
-        <p class="input-text-shipping-adress">County</p>
-        <input class="shipping-adress-input" type="text" name="county">
+        <p class="input-text-shipping-adress">County (must be 6 letters)</p>
+        <input class="shipping-adress-input" id="register-shipping-county-input" type="text" name="county">
+        <p class="register-shipping-adress-error-hide" id="register-shipping-county-error-display">Please enter your
+          county</p>
       </div>
     </form>
     <section class="cta-shipping-adress-container">
       <a href="choose-payment-method.html">
-        <img class="cta-shipping-adress" src="../images/cta buttons/cta store/cta proceed big.png" alt="proceed"></a>
+        <button disabled class="cta-register-shipping-adress">Proceed</button></a>
       <a href="../index.html">
         <img class="cta-shipping-adress" src="../images/cta buttons/cta store/cta cancel big.png" alt="cancel"></a>
     </section>
@@ -187,6 +193,7 @@
   <footer>
   </footer>
   <script src="../js/contact-us.js"></script>
+  <script src="../js/proceed-with-register.js"></script>
 
 </body>
 
