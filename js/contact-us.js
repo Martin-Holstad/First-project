@@ -1,8 +1,12 @@
 const form = document.querySelector(".contact-us-form");
 const firstName = document.querySelector("#first-name-contact-us");
-const firstNameError = document.querySelector("#first-name-contact-us-error");
+const firstNameErrorContactUs = document.querySelector(
+  "#first-name-contact-us-error"
+);
 const lastName = document.querySelector("#last-name-contact-us");
-const lastNameError = document.querySelector("#last-name-contact-us-error");
+const lastNameErrorContactUs = document.querySelector(
+  "#last-name-contact-us-error"
+);
 const emailInput = document.querySelector("#email-contact-us");
 const emailError = document.querySelector("#email-contact-us-error");
 const message = document.querySelector("#message-contact-us");
@@ -24,15 +28,15 @@ function buttonEnable() {
   }
 
   if (firstName.value.trim().length >= 4) {
-    firstNameError.style.display = "none";
+    firstNameErrorContactUs.style.display = "none";
   } else {
-    firstNameError.style.display = "block";
+    firstNameErrorContactUs.style.display = "block";
   }
 
   if (lastName.value.trim().length >= 4) {
-    lastNameError.style.display = "none";
+    lastNameErrorContactUs.style.display = "none";
   } else {
-    lastNameError.style.display = "block";
+    lastNameErrorContactUs.style.display = "block";
   }
 
   if (emailRequirements(emailInput.value.trim()) === true) {

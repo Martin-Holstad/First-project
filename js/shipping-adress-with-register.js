@@ -26,7 +26,7 @@ function buttonEnableContactUs() {
   if (firstNameInput.value.trim().length >= 4) {
     firstNameError.style.display = "none";
   } else {
-    firstNameError.style.disabled = "block";
+    firstNameError.style.display = "block";
   }
 
   if (lastNameInput.value.trim().length >= 4) {
@@ -61,8 +61,8 @@ function submitFormContactUs(event) {
 
 registerForm.addEventListener("submit", submitFormContactUs);
 
-function checklengthContactUs(valuee, lenn) {
-  if (valuee.trim().length >= lenn) {
+function checklengthContactUs(value, len) {
+  if (value.trim().length >= len) {
     return true;
   } else {
     return false;
@@ -70,7 +70,8 @@ function checklengthContactUs(valuee, lenn) {
 }
 
 registerButton.onclick = function () {
-  window.location = "http://127.0.0.1:5500/purchase/proceed%20as%20guest.html";
+  window.location =
+    "http://127.0.0.1:5500/purchase/proceed%20with%20register.html";
 };
 
 function emailRequirementsContactUs(email) {
