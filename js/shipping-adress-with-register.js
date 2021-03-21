@@ -71,7 +71,7 @@ function checklengthContactUs(value, len) {
 
 registerButton.onclick = function () {
   window.location =
-    "http://127.0.0.1:5500/purchase/proceed%20with%20register.html";
+    "https://mh-rainydays.netlify.app/purchase/proceed%20with%20register.html";
 };
 
 function emailRequirementsContactUs(email) {
