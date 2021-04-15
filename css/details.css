@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.loader-men-jacket {
+  text-align: center;
+}
+
+.product-detail-section-one {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+.productDetailContainer {
+  width: 400px;
+}
+
+.product-image-details {
+  margin-top: 25px;
+  width: 400px;
+}
+
+.product-info-container {
+  width: 400px;
+}
+
+.product-color-header {
+  margin-top: 30px;
+}
+
+.product-description-details {
+  margin-top: 40px;
+}
+
+.product-add-to-cart {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: #106f77;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.product-cta-section {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.cta-button-proceed {
+  border-radius: 20px;
+  border-style: none;
+  width: 350px;
+  height: 40px;
+  color: white;
+  font-size: 16px;
+  background-color: #106f77;
+  margin-bottom: 5px;
+}
+
+.cta-button-go-back {
+  border-radius: 20px;
+  border-style: none;
+  width: 350px;
+  height: 40px;
+  color: white;
+  font-size: 16px;
+  background-color: red;
+}
