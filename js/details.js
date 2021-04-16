@@ -17,6 +17,7 @@ async function productDetails() {
         newHtml(details);
     } catch (error) {
         console.log("failed to fetch url")
+        loader.innerHTML = "Ops... Something went wrong";
     }
 }
 
@@ -27,8 +28,31 @@ function newHtml(details) {
                                        <img class="product-image-details" src="${details.images[0].src}" alt="${details.name}">`
 
     productInfoContainer.innerHTML += `
+                                      <div class="h1-and-in-stock-container">
                                       <h1>${details.name}</h1>
-                                      <p class="product-color-header">${details.description}</p>
+                                      <p class="product-in-stock">${details.is_in_stock}</p>
+                                      </div>
+                                      <p class="product-h2"><strong>${details.description}</strong></p>
                                       <p class="product-description-details">${details.short_description}</p>
                                       <button class="product-add-to-cart">Add to cart</button>`
+
+    const inStock = document.querySelector(".product-in-stock")
+
+    if (details.is_in_stock) {
+        inStock.innerHTML = "In stock"
+        inStock.style.color = "green"
+
+    } else {
+        inStock.innerHTML = "Out of stock"
+        inStock.style.color = "red"
+    }
 }
+
+const goBackButton = document.querySelector(".cta-button-go-back")
+
+goBackButton.onclick = function () {
+    history.back();
+}
+
+
+

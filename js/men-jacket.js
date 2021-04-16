@@ -10,11 +10,13 @@ async function menProducts() {
 
         loader.innerHTML = "";
 
-        const productInfo = result.slice(8);
+        const productInfo = result;
 
         productInfo.forEach(function (products) {
 
-            productContainerMenJacket.innerHTML += `<a href="../purchase/details.html?id=${products.id}?name=${products.name}">
+            if (products.categories[0].name === "Men") {
+
+                productContainerMenJacket.innerHTML += `<a href="../purchase/details.html?id=${products.id}?name=${products.name}">
                                                     <div>
                                                     <img class="images-men-jacket" src="${products.images[0].src}" alt="${products.name}">
                                                     <p class="name-men-jacket">${products.name}</p>
@@ -29,6 +31,7 @@ async function menProducts() {
                                                     </div>
                                                     </a>
                                                     `;
+            }
         });
 
     } catch (error) {
