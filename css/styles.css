@@ -221,6 +221,11 @@ option {
   margin-bottom: 40px;
 }
 
+.shipping-adress-form {
+  display: grid;
+  align-self: center;
+}
+
 .input-container {
   margin: 0px auto 20px auto;
   width: fit-content;
