@@ -85,6 +85,8 @@ function newHtml(details) {
 
 const proceedButton = document.querySelector(".cta-button-proceed")
 const goBackButton = document.querySelector(".cta-button-go-back")
+const goBackButtonContactUs = document.querySelector(".contact-us-go-back-cta")
+const contactUsForm = document.querySelector(".contact-us-overlay-container")
 
 proceedButton.onclick = function () {
     window.location = "/purchase/proceed%20as%20guest.html"
@@ -94,3 +96,6 @@ goBackButton.onclick = function () {
     history.back();
 }
 
+goBackButtonContactUs.onclick = function () {
+    window.location = "/purchase/details.html"
+}
