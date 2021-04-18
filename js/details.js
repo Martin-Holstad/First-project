@@ -15,6 +15,7 @@ async function productDetails() {
         loader.innerHTML = "";
 
         newHtml(details);
+        console.log(details)
     } catch (error) {
         console.log("failed to fetch url")
         loader.innerHTML = "Ops... Something went wrong";
@@ -32,9 +33,19 @@ function newHtml(details) {
                                       <h1>${details.name}</h1>
                                       <p class="product-in-stock">${details.is_in_stock}</p>
                                       </div>
+                                      <p>${details.price_html}</p>
                                       <p class="product-h2"><strong>${details.description}</strong></p>
                                       <p class="product-description-details">${details.short_description}</p>
-                                      <button class="product-add-to-cart">Add to cart</button>`
+                                      <section>
+                                      <select name="size" id="size-select">
+                                      <option value="">Please choose a size</option>
+                                      <option value="s">S</option>
+                                      <option value="m">M</option>
+                                      <option value="l">L</option>
+                                      <option value="xl">XL</option>
+                                      </select>
+                                      </section>
+                                      <button class="product-add-to-cart" data-products="${details}">Add to cart</button>`
 
     const inStock = document.querySelector(".product-in-stock")
 
@@ -46,13 +57,47 @@ function newHtml(details) {
         inStock.innerHTML = "Out of stock"
         inStock.style.color = "red"
     }
+
+    const addToCartBtn = document.querySelector(".product-add-to-cart");
+    const showCart = document.querySelector(".cart-overlay-container");
+
+    let count = 0
+
+    addToCartBtn.onclick = function () {
+
+        showCart.style.display = "block";
+
+        const itemInCartCount = document.querySelector(".total-items")
+
+        count++;
+
+        itemInCartCount.innerHTML = count;
+
+        showCart.innerHTML += `
+                               <div class="shopping-cart-product-container">
+                               <img class="shopping-cart-image" src="${details.images[0].src}">
+                               <p class="shopping-cart-name">${details.name}</p>
+                               <p class="shopping-cart-price">${details.price_html}</p>
+                               </div>
+                               `
+
+        const clearCart = document.querySelector(".clear-cart")
+        clearCart.onclick = function () {
+            showCart.innerHTML = `
+                                 <button class="clear-cart">Clear cart</button>
+                                 `
+        }
+    }
 }
 
+const proceedButton = document.querySelector(".cta-button-proceed")
 const goBackButton = document.querySelector(".cta-button-go-back")
+
+proceedButton.onclick = function () {
+    window.location = "https://purchase/proceed%20as%20guest.html"
+}
 
 goBackButton.onclick = function () {
     history.back();
 }
-
-
 
