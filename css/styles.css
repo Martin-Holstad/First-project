@@ -8,8 +8,7 @@ body {
 }
 
 .logo {
-  margin: 15px auto 50px auto;
-  width: fit-content;
+  text-align: center;
 }
 
 .background {
