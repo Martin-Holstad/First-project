@@ -28,12 +28,21 @@ body {
 .h1-and-in-stock-container {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0px;
 }
-
+h1 {
+  margin-bottom: 0px;
+}
 .product-in-stock {
   font-weight: bold;
   margin-top: 24px;
   font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.product-price-details {
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .product-description-details {

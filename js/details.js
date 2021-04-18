@@ -30,10 +30,10 @@ function newHtml(details) {
 
     productInfoContainer.innerHTML += `
                                       <div class="h1-and-in-stock-container">
-                                      <h1>${details.name}</h1>
+                                      <h1 class="h1-details">${details.name}</h1>
                                       <p class="product-in-stock">${details.is_in_stock}</p>
                                       </div>
-                                      <p>${details.price_html}</p>
+                                      <p class="product-price-details">${details.price_html}</p>
                                       <p class="product-h2"><strong>${details.description}</strong></p>
                                       <p class="product-description-details">${details.short_description}</p>
                                       <section>
