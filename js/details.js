@@ -71,7 +71,7 @@ function newHtml(details) {
 
         count++;
 
-        itemInCartCount.innerHTML = count;
+        itemInCartCount.innerHTML = "Items in cart " + count;
 
         showCart.innerHTML += `
                                <div class="shopping-cart-product-container">
@@ -80,13 +80,6 @@ function newHtml(details) {
                                <p class="shopping-cart-price">${details.price_html}</p>
                                </div>
                                `
-
-        const clearCart = document.querySelector(".clear-cart")
-        clearCart.onclick = function () {
-            showCart.innerHTML = `
-                                 <button class="clear-cart">Clear cart</button>
-                                 `
-        }
     }
 }
 
@@ -94,7 +87,7 @@ const proceedButton = document.querySelector(".cta-button-proceed")
 const goBackButton = document.querySelector(".cta-button-go-back")
 
 proceedButton.onclick = function () {
-    window.location = "https://purchase/proceed%20as%20guest.html"
+    window.location = "/purchase/proceed%20as%20guest.html"
 }
 
 goBackButton.onclick = function () {
