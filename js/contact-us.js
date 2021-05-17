@@ -7,18 +7,19 @@ const lastName = document.querySelector("#last-name-contact-us");
 const lastNameErrorContactUs = document.querySelector(
   "#last-name-contact-us-error"
 );
-const emailInput = document.querySelector("#email-contact-us");
+const email = document.querySelector("#email-contact-us");
 const emailError = document.querySelector("#email-contact-us-error");
 const message = document.querySelector("#message-contact-us");
 const messageError = document.querySelector("#message-contact-us-error");
 const button = document.querySelector(".contact-us-submit-cta");
 const successMessage = document.querySelector(".contact-us-form-message");
 
+
 function buttonEnable() {
   if (
     checklength(firstName.value, 4) &&
     checklength(lastName.value, 4) &&
-    emailRequirements(emailInput.value) &&
+    emailRequirements(email.value) &&
     checklength(message.value, 10)
   ) {
     button.disabled = false;
@@ -39,7 +40,7 @@ function buttonEnable() {
     lastNameErrorContactUs.style.display = "block";
   }
 
-  if (emailRequirements(emailInput.value.trim()) === true) {
+  if (emailRequirements(email.value.trim()) === true) {
     emailError.style.display = "none";
   } else {
     emailError.style.display = "block";
@@ -47,14 +48,16 @@ function buttonEnable() {
 
   if (message.value.trim().length >= 10) {
     messageError.style.display = "none";
+
   } else {
     messageError.style.display = "block";
   }
 }
 
+
 firstName.addEventListener("keyup", buttonEnable);
 lastName.addEventListener("keyup", buttonEnable);
-emailInput.addEventListener("keyup", buttonEnable);
+email.addEventListener("keyup", buttonEnable);
 message.addEventListener("keyup", buttonEnable);
 
 function submitForm(event) {
