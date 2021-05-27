@@ -1,0 +1,72 @@
+.guide-line-container {
+  display: flex;
+  justify-content: center;
+}
+
+.guide-line {
+  margin: 24px 6px 0px 6px;
+}
+
+.guide-line-text {
+  text-decoration: underline;
+}
+
+.register-shipping-adress-error-hide {
+  display: none;
+  color: red;
+}
+
+.h1-shipping-adress {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.input-container {
+  margin: 0px auto 20px auto;
+  width: fit-content;
+}
+
+.shipping-adress-input {
+  display: block;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  height: 40px;
+  width: 510px;
+}
+
+.input-text-shipping-adress {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+.cta-register-shipping-adress {
+  display: block;
+  margin: 20px auto;
+  width: 520px;
+  height: 42px;
+  border-radius: 30px;
+  border-width: 0px;
+  background-color: #106f77;
+  color: white;
+  font-size: 20px;
+}
+
+.cta-register-shipping-adress:disabled {
+  background-color: lightgray;
+}
+
+.cta-register-shipping-adress-go-back {
+  width: 520px;
+  height: 30px;
+  margin: 20px auto;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 30px;
+  border-width: 0px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+}

@@ -13,6 +13,10 @@
   margin-right: 150px;
 }
 
+.images-women-jacket:hover {
+  width: 280px;
+}
+
 .name-and-price-flex-women-jacket {
   display: flex;
   justify-content: space-between;

@@ -1,0 +1,49 @@
+.home-h1 {
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  color: #ffff;
+}
+
+.home-text {
+  margin: auto auto;
+  width: 540px;
+  font-size: 22px;
+  text-align: center;
+  color: #ffff;
+}
+
+.home-images {
+  text-align: center;
+}
+
+.product-item {
+  margin: 5px;
+}
+
+.cta-container-home {
+  display: flex;
+  justify-content: center;
+  gap: 65px;
+  margin-top: 40px;
+}
+
+.product-cta-men {
+  background-color: #106f77;
+  width: 500px;
+  padding-top: 10px;
+  height: 30px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+.product-cta-women {
+  background-color: #106f77;
+  width: 500px;
+  padding-top: 10px;
+  height: 30px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 18px;
+}

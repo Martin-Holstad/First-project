@@ -1,12 +1,8 @@
 const form = document.querySelector(".contact-us-form");
 const firstName = document.querySelector("#first-name-contact-us");
-const firstNameErrorContactUs = document.querySelector(
-  "#first-name-contact-us-error"
-);
+const firstNameErrorContactUs = document.querySelector("#first-name-contact-us-error");
 const lastName = document.querySelector("#last-name-contact-us");
-const lastNameErrorContactUs = document.querySelector(
-  "#last-name-contact-us-error"
-);
+const lastNameErrorContactUs = document.querySelector("#last-name-contact-us-error");
 const email = document.querySelector("#email-contact-us");
 const emailError = document.querySelector("#email-contact-us-error");
 const message = document.querySelector("#message-contact-us");
@@ -70,16 +66,3 @@ function submitForm(event) {
 
 form.addEventListener("submit", submitForm);
 
-function checklength(value, len) {
-  if (value.trim().length >= len) {
-    return true;
-  } else {
-    return false;
-  }
-}
-
-function emailRequirements(email) {
-  const requirements = /\S+@\S+\.\S+/;
-  const emailMatch = requirements.test(email);
-  return emailMatch;
-}

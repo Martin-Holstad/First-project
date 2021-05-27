@@ -10,6 +10,7 @@ body {
 .logo {
   text-align: center;
   margin-bottom: 50px;
+  margin-top: 10px;
 }
 
 .background {
@@ -18,174 +19,24 @@ body {
   background-attachment: fixed;
 }
 
-.home-h1 {
-  font-weight: bold;
-  font-size: 22px;
-  text-align: center;
-  color: #ffff;
-}
-
-.contact-us-h1,
-.about-us-h1 {
-  text-align: center;
-}
-
-.about-us-text-container {
-  width: 35%;
-  margin: 0 auto;
-  margin-top: 50px;
-}
-
-.home-text {
-  margin: auto auto;
-  width: 540px;
-  font-size: 22px;
-  text-align: center;
-  color: #ffff;
-}
-
-.home-images {
-  text-align: center;
-}
-
-.product-item,
-.product-cta {
-  margin: 5px;
-}
-
-.cta-container-home {
-  text-align: center;
-  margin-top: 40px;
-}
-
-.container-men,
-.container-women {
-  text-align: center;
-  font-weight: bold;
-  color: #ffff;
-}
-
-.product-container-men,
-.product-container-women {
-  display: inline-block;
-  margin: 10px 10px;
-}
-
-.product-text-1-men,
-.product-text-1-women {
-  text-align: start;
-  margin: 0px;
-}
-
-.product-text-2-men,
-.product-text-2-women {
-  text-align: start;
-  margin: 0px;
-}
-
-.price {
-  position: relative;
-  text-align: end;
-  margin-top: -17px;
-}
-
-.flex-main {
-  display: flex;
-}
-
-.product-container {
-  width: fit-content;
-  margin-left: 21%;
-  margin-right: 12%;
-}
-
-.product-image-small {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-}
-
 .back-to-top-cta {
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-}
-
-.cta-product-container {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  margin-top: 20px;
-}
-
-#add-to-cart {
-  display: none;
-}
-
-.add-to-cart-cta {
+  width: 500px;
   background-color: #106f77;
-  font-weight: bold;
-  font-size: 22px;
+  border-radius: 20px;
   color: #fff;
-  text-align: center;
-  padding-top: 13px;
-  border-radius: 50px;
-  margin-bottom: 5px;
-  width: 260px;
-}
-
-.add-to-cart-overlay-container {
-  display: none;
-  position: absolute;
-  border-style: solid;
-  background-color: #fff;
-  top: 200px;
-  right: 38%;
-  top: 38%;
-  height: 327px;
-  width: 477px;
-}
-
-#add-to-cart:checked ~ .add-to-cart-overlay-container {
-  display: block;
-}
-
-.overlay-cta-container-store {
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
-  margin-top: 50px;
-}
-
-.overlay-logo {
-  margin-left: 130px;
-}
-
-.product-container-two {
-  width: 328.08px;
-}
-
-.paragraph-bold,
-option {
-  font-weight: bold;
-}
-
-.star-container {
-  margin-bottom: -15px;
+  height: 30px;
+  padding-top: 10px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  cursor: pointer;
 }
 
 .product-name-container {
   margin-top: -20px;
   margin-bottom: 65px;
-}
-
-.size {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  padding-left: 10px;
-  color: #ffff;
-  background-color: #106f77;
-  font-weight: bold;
-  height: 65px;
-  width: 297px;
 }
 
 option {
@@ -200,87 +51,6 @@ option {
 
 .flex {
   display: flex;
-}
-
-.guide-line-container {
-  display: flex;
-  justify-content: center;
-}
-
-.guide-line {
-  margin: 24px 6px 0px 6px;
-}
-
-.guide-line-text {
-  text-decoration: underline;
-}
-
-.h1-shipping-adress {
-  text-align: center;
-  font-size: 24px;
-  margin-bottom: 40px;
-}
-
-.shipping-adress-form {
-  display: grid;
-  align-self: center;
-}
-
-.input-container {
-  margin: 0px auto 20px auto;
-  width: fit-content;
-}
-
-.shipping-adress-input {
-  display: block;
-  border-style: solid;
-  border-width: 2px;
-  border-color: black;
-  height: 40px;
-  width: 510px;
-}
-
-.input-text-shipping-adress {
-  font-weight: bold;
-  font-size: 12px;
-  margin-bottom: 2px;
-}
-
-.cta-shipping-adress {
-  display: block;
-  margin: 20px auto;
-  width: 520px;
-  height: 50px;
-  border-radius: 30px;
-  border-width: 0px;
-  background-color: #106f77;
-  color: white;
-  font-size: 20px;
-}
-
-.cta-shipping-adress:disabled {
-  background-color: lightgray;
-}
-
-.register-shipping-adress-error-hide {
-  display: none;
-  color: red;
-}
-
-.cta-register-shipping-adress {
-  display: block;
-  margin: 20px auto;
-  width: 520px;
-  height: 50px;
-  border-radius: 30px;
-  border-width: 0px;
-  background-color: #106f77;
-  color: white;
-  font-size: 20px;
-}
-
-.cta-register-shipping-adress:disabled {
-  background-color: lightgray;
 }
 
 .h1-payment {

@@ -17,7 +17,7 @@ async function menProducts() {
             if (products.categories[0].name === "Men") {
 
                 productContainerMenJacket.innerHTML += `<a href="../purchase/details.html?id=${products.id}?name=${products.name}">
-                                                    <div>
+                                                    <div class="images-men-jacket-container">
                                                     <img class="images-men-jacket" src="${products.images[0].src}" alt="${products.name}">
                                                     <p class="name-men-jacket">${products.name}</p>
                                                     <div class="name-and-price-flex-men-jacket">

@@ -1,0 +1,47 @@
+.h1-shipping-adress {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.shipping-adress-form {
+  display: grid;
+  align-self: center;
+}
+
+.input-container {
+  margin: 0px auto 20px auto;
+  width: fit-content;
+}
+
+.shipping-adress-input {
+  display: block;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  height: 40px;
+  width: 510px;
+}
+
+.input-text-shipping-adress {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+.cta-shipping-adress-proceed {
+  display: block;
+  margin: 20px auto;
+  width: 520px;
+  height: 50px;
+  border-radius: 30px;
+  border-width: 0px;
+  text-align: center;
+  background-color: #106f77;
+  color: white;
+  font-size: 20px;
+}
+
+.cta-shipping-adress:disabled {
+  background-color: lightgray;
+}

@@ -1,37 +1,15 @@
 const guestShippingform = document.querySelector(".shipping-adress-form");
-const guestShippingFirstNameInput = document.querySelector(
-  "#shipping-guest-first-name-input"
-);
-const guestShippingFirstNameError = document.querySelector(
-  "#shipping-adress-guest-first-name-error"
-);
-const guestShippingLastNameInput = document.querySelector(
-  "#shipping-guest-last-name-input"
-);
-const guestShippingLastNameError = document.querySelector(
-  "#shipping-adress-guest-last-name-error"
-);
-const guestShippingShippingAdressInput = document.querySelector(
-  "#shipping-guest-shipping-adress-input"
-);
-const guestShippingShippingAdressError = document.querySelector(
-  "#shipping-adress-guest-shipping-adress-error"
-);
-const guestShippingPostalCodeInput = document.querySelector(
-  "#shipping-guest-postal-code-input"
-);
-const guestShippingPostalCodeError = document.querySelector(
-  "#shipping-adress-guest-postal-code-error"
-);
-const guestShippingCountyInput = document.querySelector(
-  "#shipping-guest-county-input"
-);
-const guestShippingCountyError = document.querySelector(
-  "#shipping-adress-guest-county-error"
-);
-const guestShippingButton = document.querySelector(
-  "#shipping-adress-guest-cta"
-);
+const guestShippingFirstNameInput = document.querySelector("#shipping-guest-first-name-input");
+const guestShippingFirstNameError = document.querySelector("#shipping-adress-guest-first-name-error");
+const guestShippingLastNameInput = document.querySelector("#shipping-guest-last-name-input");
+const guestShippingLastNameError = document.querySelector("#shipping-adress-guest-last-name-error");
+const guestShippingShippingAdressInput = document.querySelector("#shipping-guest-shipping-adress-input");
+const guestShippingShippingAdressError = document.querySelector("#shipping-adress-guest-shipping-adress-error");
+const guestShippingPostalCodeInput = document.querySelector("#shipping-guest-postal-code-input");
+const guestShippingPostalCodeError = document.querySelector("#shipping-adress-guest-postal-code-error");
+const guestShippingCountyInput = document.querySelector("#shipping-guest-county-input");
+const guestShippingCountyError = document.querySelector("#shipping-adress-guest-county-error");
+const guestShippingButton = document.querySelector("#shipping-adress-guest-cta");
 
 function buttonEnableGuestShipping() {
   if (
@@ -109,5 +87,5 @@ function checklengthGuestShipping(value, len) {
 
 guestShippingButton.onclick = function () {
   location.href =
-    "https://mh-rainydays.netlify.app/purchase/choose-payment-method.html";
+    "http://127.0.0.1:5500/purchase/choose-payment-method.html";
 };

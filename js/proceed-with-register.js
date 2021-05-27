@@ -1,27 +1,11 @@
-const formRegisterShipping = document.querySelector(
-  ".register-shipping-adress-form"
-);
-const registerShippingAdressInput = document.querySelector(
-  "#register-shipping-adress-input"
-);
-const registerShippingAdressError = document.querySelector(
-  "#register-shipping-adress-error-display"
-);
-const registerShippingPostalInput = document.querySelector(
-  "#register-shipping-postal-input"
-);
-const registerShippingPostalError = document.querySelector(
-  "#register-shipping-postal-error-display"
-);
-const registerShippingCountyInput = document.querySelector(
-  "#register-shipping-county-input"
-);
-const registerShippingCountyError = document.querySelector(
-  "#register-shipping-county-error-display"
-);
-const registerShippingAdressProceedButton = document.querySelector(
-  ".cta-register-shipping-adress"
-);
+const formRegisterShipping = document.querySelector(".register-shipping-adress-form");
+const registerShippingAdressInput = document.querySelector("#register-shipping-adress-input");
+const registerShippingAdressError = document.querySelector("#register-shipping-adress-error-display");
+const registerShippingPostalInput = document.querySelector("#register-shipping-postal-input");
+const registerShippingPostalError = document.querySelector("#register-shipping-postal-error-display");
+const registerShippingCountyInput = document.querySelector("#register-shipping-county-input");
+const registerShippingCountyError = document.querySelector("#register-shipping-county-error-display");
+const registerShippingAdressProceedButton = document.querySelector(".cta-register-shipping-adress");
 
 function buttonEnableRegisterShipping() {
   if (
