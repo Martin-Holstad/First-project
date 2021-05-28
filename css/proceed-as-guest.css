@@ -1,16 +1,3 @@
-.guide-line-container {
-  display: flex;
-  justify-content: center;
-}
-
-.guide-line {
-  margin: 24px 6px 0px 6px;
-}
-
-.guide-line-text {
-  text-decoration: underline;
-}
-
 .register-shipping-adress-error-hide {
   display: none;
   color: red;

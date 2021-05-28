@@ -39,3 +39,13 @@ async function womenProducts() {
     }
 }
 womenProducts()
+
+const backToTopButton = document.querySelector(".back-to-top-cta")
+
+backToTopButton.onclick = function () {
+    window.scroll({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+    });
+}
