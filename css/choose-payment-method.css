@@ -1,0 +1,121 @@
+.h1-payment {
+  text-align: center;
+}
+
+.payment-container {
+  display: flex;
+  padding-left: 36.5%;
+}
+
+.visa-checkbox-container {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.visa-input-container {
+  display: none;
+  left: 36.5%;
+  top: 55%;
+  position: absolute;
+}
+
+#visa-checkbox:checked ~ .visa-input-container {
+  display: block;
+}
+
+#name-on-card,
+#card-information-big,
+#email-payment {
+  width: 515px;
+  height: 35px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+#card-information {
+  height: 35px;
+  width: 255px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: black;
+}
+
+.payment-input-text {
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.paypal-logo {
+  margin-left: 158px;
+}
+
+.h1-paypal {
+  font-size: 28px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0px 0px 45px 0px;
+}
+
+.paypal-checkbox-container {
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 40%;
+}
+
+.paypal-container {
+  display: none;
+  position: absolute;
+  border-style: solid;
+  top: 49%;
+  left: 36.5%;
+  height: 400px;
+  width: 515px;
+}
+
+#username-paypal,
+#password-paypal {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  height: 30px;
+  width: 300px;
+  margin-left: 98px;
+}
+
+.paypal-input-text {
+  margin-left: 100px;
+}
+
+#paypal-checkbox:checked ~ .paypal-container {
+  display: block;
+}
+
+.cta-payment-container {
+  display: grid;
+  justify-content: center;
+}
+
+.cta-payment-proceed {
+  text-align: center;
+  background-color: #106f77;
+  color: #fff;
+  width: 500px;
+  height: 30px;
+  padding-top: 10px;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+.cta-payment-go-back {
+  text-align: center;
+  background-color: red;
+  color: #fff;
+  width: 500px;
+  height: 30px;
+  padding-top: 10px;
+  border-radius: 20px;
+  font-size: 18px;
+  margin-top: 10px;
+}

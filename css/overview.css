@@ -1,0 +1,67 @@
+.h1-overview {
+  text-align: center;
+}
+
+.h2-overview {
+  margin-bottom: 30px;
+}
+
+.h3-overview {
+  margin-bottom: 40px;
+}
+
+.overview-container-one {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding-left: 12%;
+  padding-right: 13%;
+}
+
+.overview-text {
+  margin: 2px;
+}
+
+.price-flex-overview {
+  display: flex;
+  align-items: baseline;
+  height: 35px;
+}
+
+.price-overview {
+  margin-left: 50px;
+}
+
+.overview-container-two {
+  padding-left: 30%;
+  padding-top: 100px;
+  margin-bottom: 60px;
+}
+
+.cta-overview-container {
+  display: grid;
+  justify-content: center;
+}
+
+.cta-overview-proceed {
+  text-align: center;
+  background-color: #106f77;
+  color: #fff;
+  width: 500px;
+  height: 30px;
+  padding-top: 10px;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+.cta-overview-go-back {
+  text-align: center;
+  background-color: red;
+  color: #fff;
+  width: 500px;
+  height: 30px;
+  padding-top: 10px;
+  border-radius: 20px;
+  font-size: 18px;
+  margin-top: 10px;
+}

@@ -45,7 +45,7 @@ function newHtml(details) {
                                       <option value="xl">XL</option>
                                       </select>
                                       </section>
-                                      <button class="product-add-to-cart" data-products="${details}">Add to cart</button>`
+                                      <div class="product-add-to-cart" data-products="${details}">Add to cart</div>`
 
     const inStock = document.querySelector(".product-in-stock")
 

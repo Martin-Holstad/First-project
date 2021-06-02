@@ -51,7 +51,9 @@ h1 {
 
 .product-add-to-cart {
   width: 300px;
-  height: 40px;
+  height: 30px;
+  padding-top: 10px;
+  text-align: center;
   border-radius: 20px;
   border-style: none;
   background-color: #106f77;
@@ -60,11 +62,6 @@ h1 {
   font-weight: bold;
   margin-top: 20px;
   cursor: pointer;
-}
-
-.product-cta-section {
-  margin-top: 100px;
-  text-align: center;
 }
 
 #size-select {
@@ -77,29 +74,39 @@ h1 {
   cursor: pointer;
 }
 
+.product-cta-section {
+  display: grid;
+  justify-content: center;
+  margin-top: 100px;
+}
+
 .cta-button-proceed {
   border-radius: 20px;
   border-style: none;
   width: 350px;
-  height: 40px;
+  height: 30px;
+  padding-top: 10px;
   color: white;
   font-size: 16px;
   font-weight: bold;
   background-color: #106f77;
   margin-bottom: 5px;
   cursor: pointer;
+  text-align: center;
 }
 
 .cta-button-go-back {
   border-radius: 20px;
   border-style: none;
   width: 350px;
-  height: 40px;
+  height: 30px;
+  padding-top: 10px;
   color: white;
   font-size: 16px;
   font-weight: bold;
   background-color: red;
   cursor: pointer;
+  text-align: center;
 }
 
 .shopping-cart-product-container {

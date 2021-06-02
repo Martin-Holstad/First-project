@@ -43,6 +43,19 @@
   font-size: 20px;
 }
 
+.cta-shipping-adress-go-back {
+  margin: 20px auto;
+  width: 520px;
+  height: 35px;
+  padding-top: 10px;
+  border-radius: 30px;
+  border-width: 0px;
+  text-align: center;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+}
+
 .cta-shipping-adress:disabled {
   background-color: lightgray;
 }
