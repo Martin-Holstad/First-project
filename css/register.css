@@ -4,9 +4,9 @@
   margin-bottom: 40px;
 }
 
-.shipping-adress-form {
+.register-section {
   display: grid;
-  align-self: center;
+  justify-content: center;
 }
 
 .input-container {

@@ -23,8 +23,8 @@ cartOverlayButton.onclick = function () {
     } else {
         cartOverlay.style.display = "none"
     }
-
 }
+
 
 const profileOverlayContainer = document.querySelector(".profile-overlay-container")
 const profileOverlayBytton = document.querySelector("#icon-profile-il")
