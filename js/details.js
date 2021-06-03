@@ -1,6 +1,6 @@
 const productDetailContainer = document.querySelector(".productDetailContainer")
 const productInfoContainer = document.querySelector(".product-info-container")
-const loader = document.querySelector(".loader-men-jacket")
+const loader = document.querySelector(".loader-men-section")
 const idStringDetails = document.location.search;
 const newUrlDetails = new URLSearchParams(idStringDetails);
 const idDetails = newUrlDetails.get("id", "name");
@@ -12,12 +12,10 @@ async function productDetails() {
 
         const details = await response.json();
 
-        loader.innerHTML = "";
+        loader.style.display = "none";
 
         newHtml(details);
-        console.log(details)
     } catch (error) {
-        console.log("failed to fetch url")
         loader.innerHTML = "Ops... Something went wrong";
     }
 }
@@ -46,6 +44,22 @@ function newHtml(details) {
                                       </select>
                                       </section>
                                       <div class="product-add-to-cart" data-products="${details}">Add to cart</div>`
+
+    const imageModalContainer = document.querySelector(".image-modal-container")
+    const modalImageCenter = document.querySelector(".modal-image-center")
+    const modalImage = document.querySelector(".modal-image")
+    const image = document.querySelector(".product-image-details")
+
+    image.onclick = function () {
+        imageModalContainer.style.display = "block"
+        modalImage.src = image.src
+    }
+
+    imageModalContainer.onclick = function (event) {
+        if (event.target === imageModalContainer || event.target === modalImageCenter) {
+            imageModalContainer.style.display = "none"
+        }
+    }
 
     const inStock = document.querySelector(".product-in-stock")
 
@@ -82,6 +96,7 @@ function newHtml(details) {
                                `
     }
 }
+
 
 const proceedButton = document.querySelector(".cta-button-proceed")
 const goBackButton = document.querySelector(".cta-button-go-back")

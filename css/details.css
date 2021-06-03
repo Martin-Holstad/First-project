@@ -2,8 +2,28 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.loader-men-section {
+  display: grid;
+  justify-content: center;
+  margin-top: 100px;
+}
+
 .loader-men-jacket {
-  text-align: center;
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #106f77;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: circle 1.5s infinite;
+}
+
+@keyframes circle {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .product-detail-section-one {
@@ -19,6 +39,7 @@ body {
 .product-image-details {
   margin-top: 25px;
   width: 400px;
+  cursor: zoom-in;
 }
 
 .product-info-container {
@@ -131,4 +152,27 @@ h1 {
   text-align: center;
   margin-top: 10px;
   color: black;
+}
+
+.image-modal-container {
+  display: none;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 4;
+  cursor: zoom-out;
+}
+
+.modal-image-center {
+  display: flex;
+  justify-content: center;
+  padding-top: 110px;
+}
+
+.modal-image {
+  cursor: default;
+  width: 600px;
 }
