@@ -87,5 +87,5 @@ function checklengthGuestShipping(value, len) {
 
 guestShippingButton.onclick = function () {
   location.href =
-    "http://127.0.0.1:5500/purchase/choose-payment-method.html";
+    "https://mh-rainydays.netlify.app/purchase/choose-payment-method.html";
 };
